@@ -138,7 +138,7 @@ footer {
 
 .box {
   align-self: start;
-  animation: fade-in 2s forwards 8s;
+  animation: fade-in 2s forwards 5s;
   border: 2px solid var(--action-color);
   justify-self: center;
   left: 0;
@@ -149,7 +149,7 @@ footer {
 
   &-copy {
     animation: 
-      typing 2s steps(15, end) 9s 1 normal both;
+      typing 2s steps(15, end) 6s 1 normal both;
     background-color: var(--body-background);
     border-bottom: 4px solid var(--body-background);
     border-top: 4px solid var(--body-background);
