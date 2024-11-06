@@ -1,0 +1,164 @@
+:root {
+  --body-background: #fdfcf6ff;
+  --body-color: #000;
+  --heading-color: #2f004fff;
+  --action-color: #2f004fff;
+}
+
+%container {
+  margin: 2rem auto 4rem;
+  max-width: 65rem;
+  padding: 25px 25px 50px;
+
+
+  @media (max-width: 500px) {
+    padding: 16px 16px 50px;
+  }
+}
+
+%two-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 500px) {
+    grid-template-columns: 50% 50%;
+    grid-gap: 6rem;
+  }
+}
+
+
+@keyframes expand {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+
+
+@keyframes typing {
+  0% { width: 0 }
+  100% { width: 100% }
+}
+
+@keyframes fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@keyframes blur-in {
+  0% { filter: blur(10px) }
+  100% { filter: blur(0px) }
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  width: 164px;
+  padding: 1rem;
+}
+
+.logo {
+  animation: typing 1.7s steps(17, end);
+  overflow: hidden; 
+  white-space: nowrap;
+}
+
+
+
+.intro {
+  @extend %container;
+  @extend %two-columns;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  
+  background: var(--body-background);
+  color: var(--body-color);
+  font-family: "Noto Sans Mono", monospace;
+  margin: 0 8px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+main{
+  animation: fade-in 0.5s forwards 2s, blur-in 1s linear 2s;
+  opacity: 0;
+}
+
+a {
+  color: var(--action-color);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0.5rem 0 1rem;
+  font-family: "Playfair Display", monospace;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--heading-color);
+  line-height: 1.2;
+}
+
+body > header {
+  margin: 1rem;
+  text-align: center;
+}
+
+main {
+  padding-top: 3rem;
+}
+
+
+
+
+footer {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 1em;
+}
+
+
+.box {
+  align-self: start;
+  animation: fade-in 2s forwards 8s;
+  border: 2px solid var(--action-color);
+  justify-self: center;
+  left: 0;
+  opacity: 0;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+
+  &-copy {
+    animation: 
+      typing 2s steps(15, end) 9s 1 normal both;
+    background-color: var(--body-background);
+    border-bottom: 4px solid var(--body-background);
+    border-top: 4px solid var(--body-background);
+    color: var(--action-color);
+    font-size: 130%;;
+    font-weight: 500;
+    margin: -4px auto;
+    overflow: hidden; 
+    padding: 6rem 0;
+    white-space: nowrap;
+  }
+}
