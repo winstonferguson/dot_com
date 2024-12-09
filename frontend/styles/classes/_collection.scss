@@ -1,0 +1,101 @@
+@use "../base" as *;
+
+.collection {
+
+  .center {
+    .yline {
+      height: 100%;
+    }
+  }
+
+  .landing {
+    @media screen and (min-width: 960px) {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100vh;
+      margin-bottom: 0;
+    }
+
+
+    .hero {
+      grid-column: 2;
+
+      @media screen and (min-width: 960px) {
+        grid-column: 2;
+      }
+    }
+
+    .intro {
+      background: transparent;
+      color: $col-purple;
+
+      @media screen and (min-width: 960px) {
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      .title {
+        color: $col-purple;
+      }
+    }
+  }
+
+  .filter {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    h4 {
+      margin-right: 1rem;
+    }
+
+    .row {
+      @extend %flex-row-center;
+
+      gap: 1rem;
+      justify-content: end;
+      padding: 4rem 0;
+      width: 50%;
+    }
+
+    .yline {
+
+      line {
+        stroke: $col-purple;
+      }
+    }
+
+    .xline {
+      width: 120px;
+    }
+  }
+
+  .list {
+    grid-template-columns: 1fr;
+    width: 60%;
+
+    li {
+      display: flex;
+
+
+      &:nth-of-type(even) {
+        justify-content: start;
+
+        .item {
+          flex-direction: row-reverse;
+          justify-content: end;
+          text-align: right;
+        }
+      }
+
+      &:nth-of-type(odd) {
+        justify-content: end;
+      }
+
+      .item {
+        margin: 2rem 0;
+        width: 50%;
+      }
+    }
+  }
+
+}

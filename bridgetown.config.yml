@@ -30,6 +30,9 @@ base_path: "/dot_com" # the subpath of your site, e.g. /blog. If you set this op
 # If you're using esbuild for frontend assets, edit `esbuild.config.js` to
 # update `publicPath`.
 
+collections:
+  works:
+
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true

@@ -1,0 +1,70 @@
+@use "base" as *;
+
+a {
+  // color: $col-purple;
+  // font-weight: 500;
+  // text-decoration: underline;
+}
+
+body {
+  background: $col-cream;
+  color: $col-purple;
+  font-family: $font-base;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+
+   * {
+    box-sizing: border-box;
+  }
+}
+
+
+h1 {
+  color: $col-purple;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+main{
+  margin: 0;
+  padding: 0;
+}
+
+
+p {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}

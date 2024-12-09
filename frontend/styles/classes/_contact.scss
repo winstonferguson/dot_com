@@ -1,0 +1,18 @@
+@use "../base" as *;
+
+.contact {
+  .header {
+    .logo,
+    .plus {
+      border-color: $col-cream;
+      color: $col-cream;
+    }
+  }
+
+  .landing {
+    @media screen and (min-width: 960px) {
+      grid-template-rows: 100vh 1fr;
+    }
+  }
+
+}

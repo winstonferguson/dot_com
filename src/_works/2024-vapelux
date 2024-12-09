@@ -1,0 +1,12 @@
+---
+title:  Web Application for Wholesaler
+date:   2024
+categories: development, ruby on rails, hotwire
+---
+
+What: Rails 7 build of eCommerce application using Spree. This is an exisitng client upgrading their systems.
+Key points: Complex pricing structures, multiple API integrations, interface tailored to workflows.
+Timeline: Kickoff September 2023, live April 2024, ongoing support.
+
+
+

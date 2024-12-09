@@ -1,32 +1,75 @@
 ---
 layout: default
+page_class: home
 ---
 
-<main>
-  <section class="intro">
-    <div class="copy">
-      <h1>Hello,<br>I'm Winston Ferguson</h1>
-      <p>I’m a multidisciplinary full-stack developer based in London, UK.</p>
-      <p>Driven by tenacity and a love for problem-solving, I've dedicated my career to building innovative solutions that help businesses succeed. I believe strongly in technology's potential to transform how we live and work, and I'm excited to contribute to that transformation.</p>
-    </div>
-    <%= render Shared::Box.new(copy: 'Do.Learn.Repeat') %>
-  </section>
+<section class="landing" >
+  <div class="hero">
+    <%= render Shared::Image.new(src:'images/landing.webp') %>
+  </div>
+  <div class="intro">
+    <div class="title">Hello,<br>I'm Winston.</div>
+      <h1>I’m a multidisciplinary consultant based in London, UK, with expertise in both technology and management.</h1>
+      <p>My background includes:</p>
+      <div class="field">
+        <h2 class="heading">Development</h2>
+        <p>I have over 8 years of experience as a developer, with 8 years in front-end and 5 in full-stack development. For the past 4 years, I’ve specialized in Ruby on Rails, ES6 JavaScript, Dart Sass, and Shopify.</p>
+      </div>
+      <div class="field">
+        <h2 class="heading">Management</h2>
+        <p>With over 8 years of experience, I’ve advised operations in the UK, the United States, Canada, and the Caribbean, focusing on luxury, retail, and hospitality sectors.</p>
+      </div>
+      <div class="field">
+        <h2 class="heading">Design</h2>
+        <p>I’ve always been passionate about design, with professional experience spanning product, graphic, and interior design. Most of my client work focuses on web and graphic design, including logos and advertisements.</p>
+      </div>
 
-  <!-- <section>
-    <h1>Experience</h1>
-    <p>My journey began as a project manager, leading the North American launch of a global corporate intranet. From there, I moved into operations management, then transitioned into consulting, became a restaurateur, a graphic designer, and ultimately a full-stack developer.</p>
-    <h2>Management Consultant</h2>
-    <p>As a management consultant, I worked with clients to identify opportunities for growth and efficiency. I developed and implemented strategies that helped clients achieve their goals and improve their bottom line.</p>
-    <p>Clients: Roche-Bobois, SVG Air, Kiru London, Pucci Mayfair, M</p>
-    <h2>Restaurateur</h2>
-    <p>My professional experience can be represented a</p>
+  </div>
+  
+</section>
+<section class="section center">
+  <div class="list">
+    <div class="heading">
+      <h3>Recent work</h3>
+      <%= render 'xline' %>
+    </div>
+    <%= render 'yline' %>
     <ul>
-      <li>8+ years international business management</li>
-      <li>8+ years in the hospitatily sector</li>
-      <li>6+ years front end development</li>
-      <li>4+ year full-stack development</li>
-      <li>4+ years iGraphic Designer</li>
-      <li>Full-Stack Developer</li></p>
-  </section> -->
-</main>
+      <% collections.works.resources[0..2].each do |work| %>
+        <li class="item">
+          <%= render 'xline' %>
+          <div class="plus">+</div>
+          <span><%= work.data.title %></span>
+        </li>
+      <% end %>
+    </ul>
+    <div class="cta">
+      <a href="/posts" class="button-purple">View all posts</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="section center flip">
+  <div class="list">
+    <%= render 'yline' %>
+    <ul>
+      <% collections.works.resources[0..2].each do |post| %>
+        <li class="item">
+          <%= render 'xline' %>
+          <div class="plus">+</div>
+          <span><%= post.data.title %></span>
+        </li>
+      <% end %>
+    </ul>
+    <div class="heading">
+      <h3>Recent posts</h3><%= render 'xline' %>
+    </div>
+    <div class="cta">
+      <a href="/posts" class="button-purple">View all posts</a>
+    </div>
+  </div>
+</section>
+
+
 

@@ -1,0 +1,8 @@
+<picture>
+  <source media="(max-width: 320px)" srcset="<%= relative_url responsive_image_path(@src, width: 320) %>" />
+  <source media="(max-width: 640px)" srcset="<%= relative_url responsive_image_path(@src, width: 640) %>" />
+  <source media="(max-width: 960px)" srcset="<%= relative_url responsive_image_path(@src, width: 960) %>" />
+  <source media="(max-width: 1200px)" srcset="<%= relative_url responsive_image_path(@src, width: 1200) %>" />
+  <source media="(min-width: 1201px)" srcset="<%= relative_url responsive_image_path(@src, width: 2560) %>" />
+  <img src="<%= relative_url responsive_image_path(@src, width: 2560, format: 'jpg') %>" alt="<%= @alt %>" />
+</picture>

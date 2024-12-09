@@ -1,0 +1,9 @@
+<? if @resource.collection.label == 'works'>
+<li>
+  <div class="item">
+    <%= render 'xline' %>
+    <div class="plus">+</div>
+    <%= work.collection.label %>
+    <%= work.data.inspect %>
+  </div>
+</li>  
