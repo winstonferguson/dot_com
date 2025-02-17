@@ -1,75 +1,75 @@
 ---
 layout: default
 page_class: home
+title: Winston Ferguson | London-Based Multidisciplinary Professional 
+dscription: Experienced London-based professional specializing in technology, design, and management. With expertise in full-stack development, e-commerce systems, digital design, and business strategy, I help brands innovate and grow.
 ---
 
 <section class="landing" >
   <div class="hero">
-    <%= render Shared::Image.new(src:'images/landing.webp') %>
+    <video 
+      autoplay="autoplay"
+      loop="true"  
+      muted width="100%" 
+      data-controller="teaser" 
+      data-teaser-land-src-value="<%=  relative_url 'video/teaser-land.mp4' %>" 
+      data-teaser-port-src-value="<%=  relative_url 'video/teaser-port.mp4' %>">    
+    </video>
   </div>
   <div class="intro">
     <div class="title">Hello,<br>I'm Winston.</div>
-      <h1>I’m a multidisciplinary consultant based in London, UK, with expertise in both technology and management.</h1>
+      <h1>I'm a London-based multidisciplinary professional specializing in technology, design, and management.</h1>
       <p>My background includes:</p>
       <div class="field">
         <h2 class="heading">Development</h2>
-        <p>I have over 8 years of experience as a developer, with 8 years in front-end and 5 in full-stack development. For the past 4 years, I’ve specialized in Ruby on Rails, ES6 JavaScript, Dart Sass, and Shopify.</p>
-      </div>
-      <div class="field">
-        <h2 class="heading">Management</h2>
-        <p>With over 8 years of experience, I’ve advised operations in the UK, the United States, Canada, and the Caribbean, focusing on luxury, retail, and hospitality sectors.</p>
+        <p>I started writing code as I wanted to build the systems I imagined. I have over 6 years of experience as a developer, with 6 years in front-end and 5 in full-stack development. Over the past four years, I've specialized in e-commerce systems using Ruby on Rails (Hotwire: Stimulus & Turbo), ES6 JavaScript, Dart Sass, or Shopify (Liquid).</p>
       </div>
       <div class="field">
         <h2 class="heading">Design</h2>
-        <p>I’ve always been passionate about design, with professional experience spanning product, graphic, and interior design. Most of my client work focuses on web and graphic design, including logos and advertisements.</p>
+        <p>For the past decade, I've specialized in product, digital, and web design, creating over 12 websites and excelling in vector graphics. My product designs have been showcased at the London Design Festival and Decorex, and featured in ICON Design Guide, The World of Interiors, and more.</p>
       </div>
-
+      <div class="field">
+        <h2 class="heading">Management</h2>
+        <p>With 10+ years in business management, I’ve worked at a multinational corporation and consulted SMEs across the UK, US, Canada, and the Caribbean, specializing in luxury, retail, and hospitality. I’ve led and trained teams to boost sales, transform companies, optimize operations, launch successful ventures, and create an acclaimed restaurant.</p>
+      </div>
+      <div class="field">
+        <p>I'm open to new opportunities. Feel free to reach out at <a href="mailto:jwrferguson@gmail.com">jwrferguson@gmail.com</a> or <a href="tel: +447379414234">+44 73794 14234</a>.</p>
+      </div>
   </div>
   
 </section>
-<section class="section center">
+<!-- <section class="section center">
   <div class="list">
     <div class="heading">
-      <h3>Recent work</h3>
+      <h3>Recent projects</h3>
       <%= render 'xline' %>
     </div>
     <%= render 'yline' %>
     <ul>
-      <% collections.works.resources[0..2].each do |work| %>
+      <% collections.projects.resources.reverse[0..2].each do |work| %>
         <li class="item">
           <%= render 'xline' %>
-          <div class="plus">+</div>
-          <span><%= work.data.title %></span>
+          <a class="link" href="<%= work.relative_url %>">
+            <div class="plus">+</div>
+            <span><%= work.data.title %></span>
+          </a>          
         </li>
       <% end %>
     </ul>
     <div class="cta">
-      <a href="/posts" class="button-purple">View all posts</a>
+      <a href="<%= relative_url '/projects' %>" class="button-purple">View all projects</a>
     </div>
   </div>
-</section>
+</section> -->
 
-
-<section class="section center flip">
-  <div class="list">
-    <%= render 'yline' %>
-    <ul>
-      <% collections.works.resources[0..2].each do |post| %>
-        <li class="item">
-          <%= render 'xline' %>
-          <div class="plus">+</div>
-          <span><%= post.data.title %></span>
-        </li>
-      <% end %>
+<footer class="footer">
+  <%= render 'yline' %>
+  <nav>
+    <ul class="links">
+      <li><a class="link" href="<%= relative_url '/contact' %>">Contact</a></li>
     </ul>
-    <div class="heading">
-      <h3>Recent posts</h3><%= render 'xline' %>
-    </div>
-    <div class="cta">
-      <a href="/posts" class="button-purple">View all posts</a>
-    </div>
-  </div>
-</section>
+  </nav>
+</footer>
 
 
 

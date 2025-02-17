@@ -25,13 +25,15 @@ template_engine: erb
 
 # Other options you might want to investigate:
 #
-base_path: "/dot_com" # the subpath of your site, e.g. /blog. If you set this option,
+base_path: "" # the subpath of your site, e.g. /blog. If you set this option,
 # ensure you use the `relative_url` helper for all links and assets in your HTML.
 # If you're using esbuild for frontend assets, edit `esbuild.config.js` to
 # update `publicPath`.
 
 collections:
   works:
+  projects:
+     output: true
 
 # timezone: America/Los_Angeles
 # pagination:

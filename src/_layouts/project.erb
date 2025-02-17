@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="<%= site.locale %>">
+  <head>
+    <%= render "head", metadata: site.metadata, title: data.title %>
+  </head>
+  <body class="<%= data.layout %> <%= data.page_class %>">
+    <%= render "header" %>
+
+    <main>
+      <section class="landing">
+      <div class="hero">
+      </div>
+      <class="intro">
+        <h1 class="title"><%= resource.data.title %></h1>
+        <h6><%= resource.data.when %></h6>
+        <h6><%= resource.data.where %></h6>
+        <%= yield %>
+      </div>
+    </section>
+    </main>
+
+    <%= render "footer" %>
+  </body>
+</html>

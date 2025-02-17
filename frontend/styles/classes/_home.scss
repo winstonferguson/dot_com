@@ -1,6 +1,7 @@
 @use "../base" as *;
 
 .home {
+
   h1 {
     color: $col-cream;
   }
@@ -9,11 +10,23 @@
     margin-bottom: 2rem;
   }
 
+  // .cta {
+  //   .button-purple {
+  //     border: 2px solid #2f004f;
+  //     font-weight: 500;
+  //   }
+
+  // }
+
   .header {
+    align-items: start;
     background: linear-gradient( $col-purple, transparent 80%, transparent 100%); 
+    height: 120px;
+    
 
     @media screen and (min-width: 960px) {
-      background: linear-gradient( $col-purple, transparent 50%, transparent 100%); 
+      background: linear-gradient( $col-purple, transparent 80%, transparent 100%); 
+      height: 200px;
     }
 
     .logo,
@@ -24,19 +37,36 @@
   }
 
   .landing {
-    img {
-      object-position: 51% center;
-    }    
+    grid-template-rows: 90vh auto;
+
+    .hero {
+      align-items: stretch;
+      display: flex;
+
+      video {
+        object-fit: cover;
+      }
+
+    }
+    
+
+    // img {
+    //   object-position: 51% center;
+    // }   
+    // video {
+
+    // } 
   }
 
   .intro {
-    background: linear-gradient(transparent, $col-purple 30%, $col-purple 100%); 
-    margin-top: 38vh;
+    align-items: center;
+    background: linear-gradient(transparent, $col-purple 170px, $col-purple 100%); 
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    margin-top: -170px;
     padding-bottom: 6rem;
 
-    @media screen and (min-width: 960px) {
-      background: linear-gradient(transparent, $col-purple 70%, $col-purple 100%); 
-    }
+
   }
 
   .section {
@@ -54,6 +84,10 @@
         text-align: right;
       }
     }
+  }
+
+  .title {
+    letter-spacing: 0.08rem;
   }
 }
 

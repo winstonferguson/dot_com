@@ -42,7 +42,8 @@
   .filter {
     margin: 0;
     padding: 0;
-    position: relative;
+    position: sticky;
+    top: 0;
 
     h4 {
       margin-right: 1rem;
@@ -71,21 +72,34 @@
 
   .list {
     grid-template-columns: 1fr;
-    width: 60%;
+    width: 100%;
+
+    .heading {
+      background-color: $col-cream;
+      border-radius: 80px;
+      font-weight: 600;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      position: relative;
+      z-index: 1;
+      width: 80px;
+    }
 
     li {
       display: flex;
+      justify-content: end;
 
 
-      &:nth-of-type(even) {
-        justify-content: start;
+      // &:nth-of-type(even) {
+      //   justify-content: start;
 
-        .item {
-          flex-direction: row-reverse;
-          justify-content: end;
-          text-align: right;
-        }
-      }
+      //   .item {
+      //     flex-direction: row-reverse;
+      //     justify-content: end;
+      //     text-align: right;
+      //   }
+      // }
 
       &:nth-of-type(odd) {
         justify-content: end;

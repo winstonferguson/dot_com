@@ -2,6 +2,7 @@
 
 .contact {
   .header {
+    z-index: 9;
     .logo,
     .plus {
       border-color: $col-cream;
@@ -11,7 +12,34 @@
 
   .landing {
     @media screen and (min-width: 960px) {
-      grid-template-rows: 100vh 1fr;
+      grid-template-rows: 100vh auto;
+      position: relative;
+    }
+
+    .intro {
+      gap: 0.5rem;
+
+      @media screen and (min-width: 960px) {
+        align-items: center;
+        grid-column: 1 /span 2;
+        width: 100%;
+
+        > * {
+          width: auto;
+          text-decoration: none;
+        }
+      }
+
+      // @media screen and (min-width: 1300px) {
+      //   align-items: center;
+      //   background: linear-gradient(transparent, $col-purple 50%, $col-purple 100%); 
+      //   flex-direction: row;
+        
+      //   justify-content: start;
+      //   padding: 128px 32px 32px 32px;
+      //   position: absolute;
+      //   bottom: 0;
+      // }
     }
   }
 

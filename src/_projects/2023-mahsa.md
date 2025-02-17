@@ -1,0 +1,12 @@
+---
+title:  Luxury Dental Hygiene Brand Website 
+date:   2023
+categories: development, design
+---
+
+What: Design and build of bespoke Shopify theme.
+Key points: Some custom sections and snippets
+Timeline: Kickoff March 2023, Live May 2023, ongoing support
+
+
+

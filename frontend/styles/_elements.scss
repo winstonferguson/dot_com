@@ -1,7 +1,7 @@
 @use "base" as *;
 
 a {
-  // color: $col-purple;
+  color: $col-cream;
   // font-weight: 500;
   // text-decoration: underline;
 }
@@ -57,6 +57,9 @@ main{
   padding: 0;
 }
 
+nav {
+  line-height: 1;
+}
 
 p {
   margin: 0 0 0.5rem 0;

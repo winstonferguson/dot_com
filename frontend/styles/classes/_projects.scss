@@ -1,0 +1,12 @@
+@use "../base" as *;
+
+.projects {
+  .list {
+    .heading {
+      background-color: $col-cream;
+      justify-content: center;
+      padding: 1rem;
+    }
+  }
+
+}
