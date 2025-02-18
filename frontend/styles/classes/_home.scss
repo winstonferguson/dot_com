@@ -41,7 +41,7 @@
         display: block;
         position: absolute;
         bottom: 0;
-        min-height: 170px;
+        min-height: 120px;
         min-width: 100%;
         mix-blend-mode: multiply;
       }
@@ -56,10 +56,10 @@
 
   .intro {
     align-items: center;
-    background: linear-gradient(transparent, $col-purple 170px, $col-purple 100%); 
+    background: linear-gradient(transparent, $col-purple 120px, $col-purple 100%); 
     grid-column: 1 / span 2;
     grid-row: 2;
-    margin-top: -170px;
+    margin-top: -120px;
     padding-bottom: 6rem;
     z-index: 1;
   }
