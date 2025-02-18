@@ -2,7 +2,6 @@ import "$styles/index.scss"
 import "$styles/syntax-highlighting.css"
 import { Application } from "@hotwired/stimulus"
 import * as Turbo from "@hotwired/turbo"
-import 'media-chrome'
 
 /**
  * Adds support for declarative shadow DOM. Requires your HTML <head> to include:
