@@ -15,7 +15,9 @@
               loop="true"
               muted
               width="100%"
-              playsinline>
+              playsinline
+              controls
+              >
               <source src="<%= relative_url '/video/' + resource.data.video %>" type="video/mp4" />
             </video>
           <% end %>
@@ -41,6 +43,13 @@
 
     </main>
 
-    <%= render "footer" %>
+    <footer class="footer">
+  <%= render 'yline' %>
+  <nav>
+    <ul class="links">
+      <li><a class="link" href="<%= relative_url '/' %>">Home</a></li>
+    </ul>
+  </nav>
+</footer>
   </body>
 </html>

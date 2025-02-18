@@ -224,49 +224,65 @@
   @extend %two-columns; 
 
   justify-self: center;
-  min-width: 60%;
+  min-width: 90%;
   position: relative;
-
-  @media screen and (min-width: 768px) {
-    
-  }
-
-  .yline {
-    position: absolute;
-    left: 0;
-    top: 67px;
-  }
-
   
   .cta {
     @extend %flex-row-center;
 
+    
     grid-column:  span 2;
-    margin-top: 3rem;
+    margin: 3rem 0 0 1rem;
+    justify-content: flex-start;
+
+
+
+    @media screen and (min-width: 768px) {
+      justify-content: center;
+      margin: 3rem 0 0 0;
+    }
+
+    .xline {
+      width: calc(50% - 80px);
+      
+      @media screen and (min-width: 768px) {
+        display: none
+      }
+    }
   }
 
 
   .heading {
     @extend %flex-row-center;
 
-    gap: 2rem;
+    gap: 1rem;
     grid-column: 1 / span 2;
-    margin-top: 3rem;
+    margin: 3rem 0 0 1rem;
     z-index: 1;
     flex-direction: row-reverse;
     justify-content: start;
 
     @media screen and (min-width: 768px) {
       flex-direction: row;
+      gap: 2rem;
       grid-column: 1 ;
       justify-content: end;
+      margin: 0;
+    }
+
+    .xline {
+      // display: none;
+
+      // @media screen and (min-width: 550px) {
+      //   display: block;
+      // }
     }
 
     
 
     h3 {
       font-family: $font-comp;
-      font-size: 2.5rem;
+      font-size: 2.25rem;
       font-weight: 900;
       line-height: 1;
     }
@@ -277,8 +293,12 @@
 
     gap: 1rem;
     justify-content: start;
-    margin: 6rem 0 6rem;
+    margin: 6rem 0 6rem 1rem;
     position: relative;
+
+    @media screen and (min-width: 768px) {
+      margin: 6rem 0 6rem 0;
+    }
 
     .link {
       @extend %flex-row-center;

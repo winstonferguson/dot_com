@@ -54,6 +54,20 @@
     }
   }
 
+  .list {
+    .yline {
+      height: calc(100% - 84px);
+      left: 1rem;
+      top: 67px;
+
+      @media screen and (min-width: 768px) {
+        height: calc(100% - 60px);
+        top: 0;
+        left: 50%;
+      }
+    }
+  }
+
   .intro {
     align-items: center;
     background: linear-gradient(transparent, $col-purple 120px, $col-purple 100%); 
