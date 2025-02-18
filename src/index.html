@@ -13,6 +13,7 @@ page_class: home
       width="100%" 
       playsinline
       data-controller="teaser" 
+      disablePictureInPicture
       data-teaser-land-src-value="<%=  relative_url 'video/teaser-land.mp4' %>" 
       data-teaser-port-src-value="<%=  relative_url 'video/teaser-port.mp4' %>">    
     </video>
@@ -39,7 +40,7 @@ page_class: home
   </div>
   
 </section>
-<!-- <section class="section center">
+<section class="section center">
   <div class="list">
     <div class="heading">
       <h3>Recent projects</h3>
@@ -50,7 +51,7 @@ page_class: home
       <% collections.projects.resources.reverse[0..2].each do |work| %>
         <li class="item">
           <%= render 'xline' %>
-          <a class="link" href="<%= work.relative_url %>">
+          <a class="link purple" href="<%= work.relative_url %>">
             <div class="plus">+</div>
             <span><%= work.data.title %></span>
           </a>          
@@ -61,7 +62,7 @@ page_class: home
       <a href="<%= relative_url '/projects' %>" class="button-purple">View all projects</a>
     </div>
   </div>
-</section> -->
+</section>
 
 <footer class="footer">
   <%= render 'yline' %>

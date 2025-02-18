@@ -49,6 +49,7 @@
       .video {
         animation: fade-in 0.5s ease-in forwards;
         object-fit: cover;
+        -webkit-perspective: 1000;
       }
 
     }
