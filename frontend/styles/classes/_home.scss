@@ -10,24 +10,11 @@
     margin-bottom: 2rem;
   }
 
-  // .cta {
-  //   .button-purple {
-  //     border: 2px solid #2f004f;
-  //     font-weight: 500;
-  //   }
-
-  // }
-
   .header {
     align-items: start;
     background: linear-gradient( $col-purple, transparent 80%, transparent 100%); 
     height: 120px;
-    
-
-    @media screen and (min-width: 960px) {
-      background: linear-gradient( $col-purple, transparent 80%, transparent 100%); 
-      height: 200px;
-    }
+    z-index: 1;
 
     .logo,
     .plus {
@@ -37,25 +24,34 @@
   }
 
   .landing {
-    grid-template-rows: 90vh auto;
+    grid-template-rows: 80vh auto;
+
+    @media screen and (min-width: 960px) {
+      grid-template-rows: 90vh auto;
+    }
 
     .hero {
       align-items: stretch;
+      background-color: $col-purple;
       display: flex;
+      position: relative;
 
-      video {
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        min-height: 170px;
+        min-width: 100%;
+        mix-blend-mode: multiply;
+      }
+
+      .video {
+        animation: fade-in 0.5s ease-in forwards;
         object-fit: cover;
       }
 
     }
-    
-
-    // img {
-    //   object-position: 51% center;
-    // }   
-    // video {
-
-    // } 
   }
 
   .intro {
@@ -65,8 +61,7 @@
     grid-row: 2;
     margin-top: -170px;
     padding-bottom: 6rem;
-
-
+    z-index: 1;
   }
 
   .section {

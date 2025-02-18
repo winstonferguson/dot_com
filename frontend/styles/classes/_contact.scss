@@ -11,36 +11,27 @@
   }
 
   .landing {
-    @media screen and (min-width: 960px) {
-      grid-template-rows: 100vh auto;
-      position: relative;
+    .hero {
+      background-color: $col-purple;
+
+      .picture {
+        animation: fade-in 0.5s ease-in forwards;
+      }
     }
 
     .intro {
+      align-items: center;
       gap: 0.5rem;
+      z-index: 1;
 
-      @media screen and (min-width: 960px) {
-        align-items: center;
-        grid-column: 1 /span 2;
-        width: 100%;
-
-        > * {
-          width: auto;
-          text-decoration: none;
-        }
+      > * {
+        width: auto;
+        text-decoration: none;
       }
 
-      // @media screen and (min-width: 1300px) {
-      //   align-items: center;
-      //   background: linear-gradient(transparent, $col-purple 50%, $col-purple 100%); 
-      //   flex-direction: row;
-        
-      //   justify-content: start;
-      //   padding: 128px 32px 32px 32px;
-      //   position: absolute;
-      //   bottom: 0;
-      // }
+      @media screen and (min-width: 960px) {
+        grid-column: 1 /span 2;
+      }
     }
   }
-
 }
