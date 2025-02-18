@@ -6,17 +6,39 @@
   <body class="<%= data.layout %> <%= data.page_class %>">
     <%= render "header" %>
 
-    <main>
-      <section class="landing">
-      <div class="hero">
-      </div>
-      <class="intro">
+    <main class="main">
+        <div class="media">
+          <% if resource.data.video %>
+            <video
+              class="video"
+              autoplay
+              loop="true"
+              muted
+              width="100%"
+              playsinline>
+              <source src="<%= relative_url '/video/' + resource.data.video %>" type="video/mp4" />
+            </video>
+          <% end %>
+          <% if resource.data.image %>
+            <%= render Shared::Image.new(src: 'images/' + resource.data.image ) %>
+          <% end %>
+
+
+
+          <%= resource.data.media %>
+        </div>
+        <div class="content">
         <h1 class="title"><%= resource.data.title %></h1>
-        <h6><%= resource.data.when %></h6>
-        <h6><%= resource.data.where %></h6>
-        <%= yield %>
-      </div>
-    </section>
+        <div class="metadata">
+          <p><strong>Categories:</strong> <%= resource.data.categories.to_sentence.capitalize %></p>
+          <p><strong>Technologies:</strong> <%= resource.data.stack %></p>
+          <p><strong>When:</strong> <%= resource.data.when %></p>
+        </div>
+        <div class="yield">
+          <%= yield %>
+        </div>
+        </div>
+
     </main>
 
     <%= render "footer" %>

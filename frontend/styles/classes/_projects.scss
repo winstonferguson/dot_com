@@ -8,5 +8,66 @@
       padding: 1rem;
     }
   }
+}
 
+.project {
+  .main {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    max-width: 650px;
+    padding: 5rem 0;
+
+    @media screen and (min-width: 960px) {
+      align-items: center;
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: 50% 50%;
+      justify-content: center;
+      min-height: 80vh;
+      max-width: 960px;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 32px 0 0 0;
+    padding: 2rem;
+
+    @media screen and (min-width: 960px) {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
+
+  .media {
+    @media screen and (min-width: 960px) {
+      grid-column: 2;
+      grid-row: 1;
+    }
+  }
+
+  .metadata {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+    gap: 0.25rem;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .title {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .yield {
+    line-height: 2;
+  }
 }

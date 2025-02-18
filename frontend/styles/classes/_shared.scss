@@ -227,6 +227,16 @@
   min-width: 60%;
   position: relative;
 
+  @media screen and (min-width: 768px) {
+    
+  }
+
+  .yline {
+    position: absolute;
+    left: 0;
+    top: 67px;
+  }
+
   
   .cta {
     @extend %flex-row-center;
@@ -240,7 +250,19 @@
     @extend %flex-row-center;
 
     gap: 2rem;
-    justify-content: end;
+    grid-column: 1 / span 2;
+    margin-top: 3rem;
+    z-index: 1;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      grid-column: 1 ;
+      justify-content: end;
+    }
+
+    
 
     h3 {
       font-family: $font-comp;
@@ -262,13 +284,14 @@
       @extend %flex-row-center;
 
       gap: 1rem;
+      padding-right: 2em;
       text-decoration: none;
 
       &:hover {
         opacity: 0.5;
       }
       
-      
+  
     }
     
 
@@ -316,7 +339,7 @@
 
 .xline {
   height: 1px;
-  width: 50px;
+  min-width: 50px;
 
   line {
     stroke: $col-purple;

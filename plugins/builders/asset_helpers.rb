@@ -26,17 +26,17 @@ class Builders::AssetHelpers < SiteBuilder
       destination_path = destination_dir.join(resized_filename)
 
       # Don't do any processing if the file already exists
-      # if !destination_path.exist?
-      #   Bridgetown.logger.info "Resizing image: #{src} to #{width}×#{height}"
+      if !destination_path.exist?
+        Bridgetown.logger.info "Resizing image: #{src} to #{width}×#{height}"
 
-      #   FileUtils.mkdir_p(destination_dir)
+        FileUtils.mkdir_p(destination_dir)
 
-      #   pipeline = ImageProcessing::Vips.source(image_path).resize_to_limit(width, height).convert(format)
+        pipeline = ImageProcessing::Vips.source(image_path).resize_to_limit(width, height).convert(format)
 
-      #   pipeline.call(destination: destination_path.to_s)
-      # else
-      #   Bridgetown.logger.debug "Resized image exists: #{destination_path}"
-      # end
+        pipeline.call(destination: destination_path.to_s)
+      else
+        Bridgetown.logger.debug "Resized image exists: #{destination_path}"
+      end
 
       # Calculate the relative path to the resized image in the src/images folder
       resized_path = destination_path.relative_path_from(static_images_dir)

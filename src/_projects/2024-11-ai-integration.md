@@ -1,8 +1,11 @@
 ---
 title: AI Integration for 3D Configurator
+layout: project
 date:   2024
-categories: development, design
-tags: 3d, AI, ruby on rails, stimulus, turbo, postgresql, grasshopper, shapediver, dart sass, js, spree, ui/ux
+when: November 2024 through December 2024
+categories: development design
+stack: Rails 7, Stimulus.js, ShapeDiver, Apiframe
+image: 2024-11-ai-integration.png
 ---
 
-eCommerce application using Rails 7 and Spree for furniture startup. The platform features a parametric design system, AI integration, and a proprietary metadata framework to enable seamless configuration of highly customizable products. The system is designed to streamline local production, offering users immense flexibility while ensuring efficient manufacturing workflows. 
+Integration of AI-driven user interactions to generate input values for a parametric 3D configurator. Built on Rails 7 with Stimulus.js controllers, the application leverages ShapeDiver for cloud-based parametric design instances. Additionally, a user credit system was implemented to track AI usage.
