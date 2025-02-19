@@ -92,7 +92,7 @@
     color: $col-purple;
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: start;
     left: 0;
     padding: 2rem;
     position: absolute;
@@ -116,11 +116,9 @@
       color: $col-purple;
       display: block;
       text-decoration: none;
-      width: 80px;
 
       @media screen and (min-width: 960px) {
         color: $col-cream;
-        width: auto;
       }
     }
   }
@@ -141,10 +139,11 @@
       border-color: $col-purple;
       color: $col-purple;
       position: absolute;
-      top: 104px;
-      left: 50%;
-      transform: rotate(45deg) scale(1.5) translateX(-50%);
+      top: 25px;
+      right: 25px;
+      transform: rotate(45deg);
       transition: top 250ms linear;
+      z-index: 3;
 
       @media screen and (min-width: 960px) {
         background-color: transparent;
