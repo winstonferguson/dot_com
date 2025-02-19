@@ -238,6 +238,10 @@
     margin: 6rem 0 6rem 1rem;
     position: relative;
 
+    &:hover {
+      opacity: 1;
+    }
+
     @media screen and (min-width: 768px) {
       margin: 6rem 0 6rem 0;
     }
