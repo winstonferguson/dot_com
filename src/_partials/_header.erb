@@ -1,4 +1,7 @@
 <header class="header">
 	<div class="logo">\\inston Ferguson</div>
+	<div class="plus" data-controller="nav">+</div>
+
+	<%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
 </header>

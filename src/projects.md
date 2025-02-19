@@ -4,30 +4,30 @@ page_class: collection
 ---
 
 <section class="landing">
-  <div class="hero">
-    <%= render Shared::Image.new(src:'images/work.webp') %>
+  <div class=" fade-in">
+    <%= render Shared::Image.new(src:'images/landing.webp') %>
   </div>
   <div class="intro">
     <h1 class="title">Projects</h1>
-    <p>Fusce finibus justo nulla, sit amet placerat enim finibus id. Nam eget purus congue lorem posuere placerat. Praesent a ligula ut erat interdum porta. Pellentesque egestas urna ligula, vel ullamcorper lorem sollicitudin id. Nullam mollis blandit bibendum. Integer at leo volutpat sem viverra sodales. Vivamus eu sem tellus.</p>
+    <p>A collection of projects where design, development, and strategy intersect. From AI-powered configurators and full Ruby on Rails builds to bespoke Shopify themes, digital design and business automation, each project reflects my multidisciplinary approach to crafting elegant, efficient solutions.</p>
   </div>
 </section>
 
 <%= render 'collection_filter' %>
 
-<section class="center">
+<section id="projects-list" class="center">
   <div class="list">
     <%= render 'yline' %>
     <ul>  
       <% collections.projects.resources.reverse!.group_by(&:date).each do |date, values| %>
         <h2 class="heading"><%= date %></h2>
         <% values.each do |value| %>
-          <li>
-            <div class="item" >
+          <li class="project" data-categories="<%= category_code(categories: value.data.categories) %>">
+            <a class="item purple" href="<%= value.relative_url %>">
               <%= render 'xline' %>
               <div class="plus">+</div>
               <%= value.data.title %>
-            </div>
+            </a>
           </li>  
         <% end %>
       <% end %>

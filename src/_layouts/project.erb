@@ -24,32 +24,27 @@
           <% if resource.data.image %>
             <%= render Shared::Image.new(src: 'images/' + resource.data.image ) %>
           <% end %>
-
-
-
-          <%= resource.data.media %>
         </div>
         <div class="content">
-        <h1 class="title"><%= resource.data.title %></h1>
-        <div class="metadata">
-          <p><strong>Categories:</strong> <%= resource.data.categories.to_sentence.capitalize %></p>
-          <p><strong>Technologies:</strong> <%= resource.data.stack %></p>
-          <p><strong>When:</strong> <%= resource.data.when %></p>
-        </div>
-        <div class="yield">
-          <%= yield %>
-        </div>
-        </div>
+          <h1 class="title"><%= resource.data.title %></h1>
+          <div class="metadata">
+            <p><strong>Categories:</strong> <%= resource.data.categories.to_sentence.capitalize %></p>
+            <p><strong>Technologies:</strong> <%= resource.data.stack %></p>
+            <p><strong>When:</strong> <%= resource.data.when %></p>
+          </div>
+          <div class="yield">
 
+            <%= yield %>
+
+          </div>
+          <div>
+          <a class="all-projects" href="<%= relative_url '/projects#projects-list' %>">&larr; All projects</a>
+          </div>
+        </div>
     </main>
 
-    <footer class="footer">
-  <%= render 'yline' %>
-  <nav>
-    <ul class="links">
-      <li><a class="link" href="<%= relative_url '/' %>">Home</a></li>
-    </ul>
-  </nav>
-</footer>
+    <%= render "footer" %>
+
+
   </body>
 </html>

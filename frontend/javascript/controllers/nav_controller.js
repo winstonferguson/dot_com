@@ -6,6 +6,6 @@ export default class extends Controller {
   }
 
   show() {
-    this.element.closest('links').classList.add('active');
+    document.querySelector("header").classList.toggle('active-menu');
   }
 }

@@ -1,7 +1,7 @@
 ---
 title:  Wholesaler Web Application
 date:   2024
-categories: development 
+categories:  development design
 tags: ruby on rails, stimulus, turbo, grasshopper, shapediver, dart sass, js, spree, ui/ux, postgresql
 ---
 

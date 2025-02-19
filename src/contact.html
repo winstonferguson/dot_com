@@ -4,8 +4,10 @@ page_class: contact
 ---
 
 <section class="landing" >
-  <div class="hero">
+  <div class="hero fade-in">
+
     <%= render Shared::Image.new(src:'images/contact.webp') %>
+
   </div>
   <div class="intro">
     <h1 class="title">Contact</h1>
@@ -15,12 +17,3 @@ page_class: contact
     <a href="https://www.linkedin.com/in/winstonferguson/">linkedin.com/in/winstonferguson</a>
   </div>
 </section>
-
-<footer class="footer">
-  <%= render 'yline' %>
-  <nav>
-    <ul class="links">
-      <li><a class="link" href="<%= relative_url '/' %>">Home</a></li>
-    </ul>
-  </nav>
-</footer>

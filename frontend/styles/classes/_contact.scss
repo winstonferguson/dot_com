@@ -11,28 +11,26 @@
     }
   }
 
-  .landing {
-    .hero {
-      background-color: $col-purple;
+  // .landing {
+  //   .hero {
+  //     background-color: $col-purple;
 
-      .picture {
-        animation: fade-in 0.5s ease-in forwards;
-      }
-    }
+  //     .picture {
+  //       animation: fade-in 0.5s ease-in forwards;
+  //     }
+  //   }
 
-    .intro {
-      align-items: center;
-      gap: 0.5rem;
-      z-index: 1;
+  //   .intro {
+  //     align-items: center;
+  //     gap: 0.5rem;
+  //     padding-bottom: 4rem;
+  //     z-index: 1;
 
-      > * {
-        width: auto;
-        text-decoration: none;
-      }
+  //     > * {
+  //       width: auto;
+  //       text-decoration: none;
+  //     }
 
-      @media screen and (min-width: 960px) {
-        grid-column: 1 /span 2;
-      }
-    }
-  }
+  //   }
+  // }
 }

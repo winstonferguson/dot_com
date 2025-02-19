@@ -50,31 +50,22 @@ page_class: home
     </div>
     <%= render 'yline' %>
     <ul>
-      <% collections.projects.resources.reverse[0..2].each do |work| %>
+      <% collections.projects.resources.reverse[0..2].each do |project| %>
         <li class="item">
           <%= render 'xline' %>
-          <a class="link purple" href="<%= work.relative_url %>">
+          <a class="link purple" href="<%= project.relative_url %>">
             <div class="plus">+</div>
-            <span><%= work.data.title %></span>
+            <span><%= project.data.title %></span>
           </a>          
         </li>
       <% end %>
     </ul>
     <div class="cta">
       <%= render 'xline' %>
-      <a href="#" class="button-purple">Coming Soon</a>
+      <a href="<%= relative_url '/projects' %>" class="button-purple">All projects</a>
     </div>
   </div>
 </section>
-
-<footer class="footer">
-  <%= render 'yline' %>
-  <nav>
-    <ul class="links">
-      <li><a class="link" href="<%= relative_url '/contact' %>">Contact</a></li>
-    </ul>
-  </nav>
-</footer>
 
 
 

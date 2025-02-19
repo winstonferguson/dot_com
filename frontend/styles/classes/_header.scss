@@ -1,0 +1,162 @@
+@use "../base" as *;
+
+.header {
+  @extend %flex-row-center;
+
+  align-items: start;
+  background: linear-gradient( $col-purple, transparent 80%, transparent 100%); 
+  gap: 1rem;
+  height: 120px;
+  left: 0;
+  padding: 1.5rem;
+  position: absolute;
+  top: 0;
+  width:100%;  
+  z-index: 1;
+
+  @media screen and (min-width: 960px) {
+    justify-content: start;
+  }
+
+  .logo {
+    border-color: $col-cream;
+    color: $col-cream;
+  }
+
+  .nav-container {
+    display: flex;
+
+    a {
+      // color: $col-cream;
+      padding: 0.25rem 0.5rem;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+
+      }
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      height: 0;
+      left: 50%;
+      position: absolute;
+      top: 70px;
+      transform: translateX(70px);
+      overflow: hidden;
+
+      @media screen and (min-width: 960px) {
+        flex-direction: row;
+        height: auto;
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 0;
+        transform: translateX(1rem);
+      }
+  
+      
+    }
+
+    &:hover {
+      .plus {
+        transform: rotate(45deg);
+      }
+      
+      .links {
+        height: auto;
+        
+        @media screen and (min-width: 960px) {
+          width: auto;
+        }
+      }
+
+    }
+  } 
+
+  .plus {
+    border-color: $col-cream;
+    color: $col-cream;
+    cursor: pointer;
+  
+    top: -40px;
+    transition: top 250ms linear;
+  }
+
+  .links {
+    background-color: $col-cream;
+    border-bottom: 1px solid $col-purple;
+    color: $col-purple;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    left: 0;
+    padding: 2rem;
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    transition: top 250ms linear;
+
+    @media screen and (min-width: 960px) {
+      background-color: transparent;
+      border-bottom: none;
+      line-height: 30px;
+      margin: 0 0 0 1rem;
+      opacity: 0;
+      padding: 0;
+      position: relative;
+      top: 0;
+
+    }
+
+    .link {
+      color: $col-purple;
+      display: block;
+      text-decoration: none;
+      width: 80px;
+
+      @media screen and (min-width: 960px) {
+        color: $col-cream;
+        width: auto;
+      }
+    }
+  }
+
+  &.active-menu {
+    .links {
+      top: 0;
+      transition: top 250ms linear;
+
+      @media screen and (min-width: 960px) {
+        opacity: 1;
+        transition: opacity 250ms linear;
+      }
+    }
+
+    .plus {
+      background-color: $col-cream;
+      border-color: $col-purple;
+      color: $col-purple;
+      position: absolute;
+      top: 104px;
+      left: 50%;
+      transform: rotate(45deg) scale(1.5) translateX(-50%);
+      transition: top 250ms linear;
+
+      @media screen and (min-width: 960px) {
+        background-color: transparent;
+        border-color: $col-cream;
+        color: $col-cream;
+        left: 0;
+        position: relative;
+        top: 0;
+        transform: rotate(45deg);
+        transition: rotate 500ms linear;
+      }
+    }
+
+  }
+}

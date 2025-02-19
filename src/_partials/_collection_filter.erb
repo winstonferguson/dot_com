@@ -1,15 +1,12 @@
-<div class="filter">
+<div class="filter" data-controller="filter">
   <div class="row">
     <h4>Filter</h4>
-    <div class="button-purple">
-      Design
-    </div>
-    <div class="button-purple">
+    <button class="button-purple" data-filter-target="category" data-filter-value="1">
       Development
-    </div>
-    <div class="button-purple">
-      Management
-    </div>
+    </button>
+    <button class="button-purple" data-filter-target="category" data-filter-value="2">
+      Design
+    </button>
     <%= render 'xline' %>
   </div>
   <%= render 'yline' %>

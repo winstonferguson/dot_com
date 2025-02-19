@@ -24,10 +24,18 @@
   }
 
   .landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    // grid-template-rows: 100vh 1fr;
+    margin-bottom: 2rem;
     grid-template-rows: 80vh auto;
+    height: auto;
 
     @media screen and (min-width: 960px) {
-      grid-template-rows: 90vh auto;
+      // grid-template-columns: 50% 50%;
+    // grid-template-rows: 100vh 1fr;
+    margin-bottom: 0;
+      // grid-template-rows: 90vh auto;
     }
 
     .hero {
@@ -35,6 +43,10 @@
       background-color: $col-purple;
       display: flex;
       position: relative;
+      grid-column: 1 / span 2;
+    grid-row: 1;
+    min-height: auto;
+    height: auto;
 
       &:after {
         content: "";
@@ -56,9 +68,9 @@
 
   .list {
     .yline {
-      height: calc(100% - 84px);
-      left: 1rem;
-      top: 67px;
+      height: calc(100% - 82px);
+      left: 16.5px;
+      top: 66px;
 
       @media screen and (min-width: 768px) {
         height: calc(100% - 60px);
@@ -73,9 +85,16 @@
     background: linear-gradient(transparent, $col-purple 120px, $col-purple 100%); 
     grid-column: 1 / span 2;
     grid-row: 2;
-    margin-top: -120px;
+    margin: -120px auto 0 auto;
+
+    justify-self: center;
+    position: static;
     padding-bottom: 6rem;
     z-index: 1;
+
+    > * {
+      width: 100%;
+    }
   }
 
   .section {
