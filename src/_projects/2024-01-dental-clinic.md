@@ -4,6 +4,7 @@ date:   2023
 layout: project
 categories: development design
 stack: Middleman, Dart Sass
+imge: 2024-01-dental-clinic.png
 
 ---
 

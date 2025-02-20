@@ -3,7 +3,7 @@ title:  Wholesaler Web Application
 date:   2023
 layout: project
 when: September 2023 through April 2024
-stack: Ruby On Rails 7, ShapeDiver, Stimulis.js, Turbo, Dart Sass, Spree, PostgreSQL
+stack: Ruby On Rails 7, ShapeDiver, Stimulus.js, Turbo, Dart Sass, Spree, PostgreSQL
 categories: development design
 video: 2024-05-application-for-wholesaler.mp4
 ---
