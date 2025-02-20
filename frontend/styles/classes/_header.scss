@@ -87,8 +87,7 @@
   }
 
   .links {
-    background-color: $col-cream;
-    border-bottom: 1px solid $col-purple;
+    background-color: $col-purple;
     color: $col-purple;
     display: flex;
     gap: 2rem;
@@ -113,7 +112,7 @@
     }
 
     .link {
-      color: $col-purple;
+      // color: $col-purple;
       display: block;
       text-decoration: none;
 
@@ -135,9 +134,9 @@
     }
 
     .plus {
-      background-color: $col-cream;
-      border-color: $col-purple;
-      color: $col-purple;
+      // background-color: $col-cream;
+      // border-color: $col-purple;
+      // color: $col-purple;
       position: absolute;
       top: 25px;
       right: 25px;
