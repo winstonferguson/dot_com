@@ -1,7 +1,7 @@
 ---
 title: Branding & Website Consumer Goods Startup 
 date:   2020
-categories: design, development
+categories: development design
 ---
 
 

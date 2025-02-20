@@ -1,6 +1,6 @@
 ---
 layout: archive_item
-title:  "Ruby on Rails Bespoke CMS for London Agency"
+title:  Branding for Real Estate Development
 date:   2017
 categories: design
 ---

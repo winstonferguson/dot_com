@@ -4,8 +4,8 @@ layout: project
 date:   2024
 when: November 2024 through December 2024
 categories: development design
-stack: Rails 7, Stimulus.js, ShapeDiver, Apiframe
-image: 2024-11-ai-integration.png
+stack: Rails 7, Stimulus.js, ShapeDiver, Apiframe API, Dart Sass
+video: 2024-11-ai-integration.mp4
 description: Implemented AI-driven user interactions for a parametric 3D configurator using Rails 7, Stimulus.js, and ShapeDiver. Developed a user credit system to track AI usage.
 ---
 
