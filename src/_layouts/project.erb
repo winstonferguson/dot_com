@@ -29,8 +29,12 @@
           <h1 class="title"><%= resource.data.title %></h1>
           <div class="metadata">
             <p><strong>Categories:</strong> <%= resource.data.categories.to_sentence.capitalize %></p>
-            <p><strong>Technologies:</strong> <%= resource.data.stack %></p>
-            <p><strong>When:</strong> <%= resource.data.when %></p>
+            <% if resource.data.stack %>
+              <p><strong>Technologies:</strong> <%= resource.data.stack %></p>
+            <% end %>
+            <% if resource.data.when %>
+              <p><strong>When:</strong> <%= resource.data.when %></p>
+            <% end %>
           </div>
           <div class="yield">
 
