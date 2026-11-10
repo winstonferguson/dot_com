@@ -1,6 +1,7 @@
 ---
 layout: default
 page_class: collection
+title: Work
 ---
 
 <section class="landing">
@@ -8,8 +9,8 @@ page_class: collection
     <%= render Shared::Image.new(src:'images/landing.webp') %>
   </div>
   <div class="intro">
-    <h1 class="title">Projects</h1>
-    <p>A collection of projects where design, development, and strategy intersect. From AI-powered configurators and full Ruby on Rails builds to bespoke Shopify themes, digital design and business automation, each project reflects my multidisciplinary approach to crafting elegant, efficient solutions.</p>
+    <h1 class="title">Work</h1>
+    <p>Software and design for small businesses: pricing and ordering systems, product configurators, online shops and websites. The case studies show the problem, what I built and the result.</p>
   </div>
 </section>
 
