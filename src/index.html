@@ -5,67 +5,69 @@ page_class: home
 
 <section class="landing" >
   <div class="hero">
-    <video 
+    <video
       class="video"
       autoplay
-      loop="true"  
-      muted 
-      width="100%" 
+      loop="true"
+      muted
+      width="100%"
       playsinline
       disablePictureInPicture
-      data-controller="teaser" 
+      data-controller="teaser"
       controls
-      
-      data-teaser-land-src-value="<%=  relative_url 'video/teaser-land.mp4' %>" 
-      data-teaser-port-src-value="<%=  relative_url 'video/teaser-port.mp4' %>">    
+
+      data-teaser-land-src-value="<%=  relative_url 'video/teaser-land.mp4' %>"
+      data-teaser-port-src-value="<%=  relative_url 'video/teaser-port.mp4' %>">
     </video>
   </div>
   <div class="intro">
-    <div class="title">Hello,<br>I'm Winston.</div>
-      <h1>I'm a London-based multidisciplinary professional specializing in technology, design, and management.</h1>
-      <p>My background includes:</p>
+    <div class="title">Quote it once.<br>Make it right.</div>
+      <h1>How many times does a custom job get re-typed between the quote and production?</h1>
+      <p>I help <%= site.metadata.niche %> businesses find where quoting and hand-off lose time, then build the fixes.</p>
       <div class="field">
-        <h2 class="heading">Development</h2>
-        <p>I started writing code as I wanted to build the systems I imagined. I have over 6 years of experience as a developer, with 6 years in front-end and 5 in full-stack development. Over the past four years, I've specialized in e-commerce systems using Ruby on Rails (Hotwire: Stimulus & Turbo) or Shopify (Liquid), and static builds.</p>
+        <h2 class="heading">The audit</h2>
+        <p>A fixed-price look at how you quote a job and pass it on to be made. You get a ranked list of what's worth fixing, and an honest view of which fixes need software and which don't.</p>
       </div>
       <div class="field">
-        <h2 class="heading">Design</h2>
-        <p>For the past decade, I've specialized in product, digital, and web design, creating over 12 websites and excelling in vector graphics. My product designs have been showcased at the London Design Festival and Decorex, and featured in ICON Design Guide, The World of Interiors, and more.</p>
+        <h2 class="heading">The fixes</h2>
+        <p>I build the tools the audit points to: pricing and quoting tools, product configurators, order data that reaches production without being typed again. Built in Ruby on Rails, around the systems you already use.</p>
       </div>
       <div class="field">
-        <h2 class="heading">Management</h2>
-        <p>With 10+ years in business management, I’ve worked at a multinational corporation and consulted SMEs across the UK, US, Canada, and the Caribbean, specializing in luxury, retail, and hospitality. I’ve led and trained teams to boost sales, transform companies, optimize operations, launch successful ventures, and create an acclaimed restaurant.</p>
+        <h2 class="heading">Where AI fits</h2>
+        <p>Sometimes AI is part of the tool, such as turning a customer's description into configurator settings. More often it makes building the tool faster and cheaper.</p>
       </div>
       <div class="field">
-        <p>I'm open to new opportunities. Feel free to reach out at <a href="mailto:jwrferguson@gmail.com">jwrferguson@gmail.com</a> or <a href="tel: +447379414234">+44 73794 14234</a>.</p>
+        <h2 class="heading">About me</h2>
+        <p>I'm an operator and manager who moved into software. I've consulted for businesses in retail, aviation and hospitality, and I run my own businesses. My background is in CAD and design, and I founded Saw &amp; Sew, an online mass-customisation furniture business with outsourced production. Now I build custom software in Ruby on Rails and Bridgetown.</p>
+        <p>I'm also the founder of Datafurn, software for CNC manufacturers. It's in development and recruiting for its Stage 1 pilot.</p>
+      </div>
+      <div class="field">
+        <%= render 'cta_button' %>
       </div>
   </div>
-  
+
 </section>
 <section class="section center">
   <div class="list">
     <div class="heading">
-      <h3>Recent projects</h3>
+      <h3>Case studies</h3>
       <%= render 'xline' %>
     </div>
     <%= render 'yline' %>
     <ul>
-      <% collections.projects.resources.reverse[0..2].each do |project| %>
+      <% collections.projects.resources.select { |project| project.data.featured }.reverse.each do |project| %>
         <li class="item">
           <%= render 'xline' %>
           <a class="link purple" href="<%= project.relative_url %>">
             <div class="plus">+</div>
             <span><%= project.data.title %></span>
-          </a>          
+          </a>
         </li>
       <% end %>
     </ul>
     <div class="cta">
       <%= render 'xline' %>
-      <a href="<%= relative_url '/projects' %>" class="button-purple">All projects</a>
+      <a href="<%= relative_url '/projects' %>" class="button-purple">All work</a>
     </div>
   </div>
 </section>
-
-
-

@@ -1,0 +1,2 @@
+<% meta = site.metadata %>
+<a class="button-purple" href="mailto:<%= meta.email %>?subject=<%= ERB::Util.url_encode(meta.cta_subject) %>&body=<%= ERB::Util.url_encode(meta.cta_body) %>"><%= meta.cta_label %></a>
