@@ -1,4 +1,5 @@
 ---
+published: false
 title:  Logo & Web Application for Music Label 
 date:   2022
 layout: project
