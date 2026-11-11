@@ -11,7 +11,7 @@ description: >-
 
 # Who the site is for. Not settled yet: change it here and every page that
 # names the segment updates. Reads as "Admin for <segment>, looked at properly."
-segment: small businesses
+segment: owner-run businesses
 
 # Call to action used on the homepage and contact page.
 cta_label: Talk it through

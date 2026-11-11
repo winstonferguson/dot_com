@@ -7,7 +7,7 @@ description: Winston Ferguson's tone of voice for winstonferguson.com and his co
 
 Speak like an operator who has run businesses, talking to someone who runs one now: plain, specific and honest, never like a vendor or a consultant selling a method.
 
-The reader is the owner or manager of a small UK business. They are busy, not technical, and wary of AI hype and of anyone selling them software. They decide in seconds whether a page is about them, so the copy has to sound like someone who has done the admin, not someone pitching to people who do.
+The reader is the owner or general manager of an owner-run UK business. They are busy, not technical, and wary of AI hype and of anyone selling them software. They decide in seconds whether a page is about them, so the copy has to sound like someone who has done the admin, not someone pitching to people who do.
 
 The offer is a fixed-price review of how work moves through the business, with a short written report of changes in order of usefulness. Some need software; many don't. Building the fixes is the follow-on, not the lead.
 
@@ -15,7 +15,7 @@ The offer is a fixed-price review of how work moves through the business, with a
 
 | Principle | Do | Don't | Why |
 | --- | --- | --- | --- |
-| Say what you do, plainly | Open on what you do and for whom: "Admin for small businesses, looked at properly." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
+| Say what you do, plainly | Open on what you do and for whom: "Admin for owner-run businesses, looked at properly." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
 | Be specific | Name the task, the tool, the number: "a ranked list of fixes", "the invoice spreadsheet". | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
 | Use everyday admin words | Job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
 | Stay calm and honest | Say when software isn't the answer, and what you don't know. | Promise transformation or hype AI. | One overclaim discredits everything around it. |
@@ -46,7 +46,7 @@ Ask one genuine question, then say what you do. Avoid questions that answer them
 | spreadsheet, the system you use now | legacy systems, tech stack | Names the actual thing. |
 | re-typing, copying across, chasing | data silos, manual processes, inefficiencies | Concrete, visible pain. |
 | fix, tool | solution, platform | Plain nouns. |
-| small business | SME, organisation | Plain, and what they call themselves. |
+| owner-run business, growing business | small business, SME, organisation, any size claim | Owners recognise themselves in it; "small business" gets skimmed past. |
 | AI, only where it earns its place | revolutionary, cutting-edge, game-changing, AI-powered | Sceptical buyers tune out hype. |
 | review, report | audit, teardown, strategy, roadmap, engagement | Plain, and says what happens next. |
 
@@ -56,8 +56,8 @@ Also never: seamless, effortless, transform, unlock, supercharge, empower, lever
 
 | Before | After |
 | --- | --- |
-| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | Admin for small businesses, looked at properly. |
-| The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for a small business to afford. |
+| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | Admin for owner-run businesses, looked at properly. |
+| The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for an owner-run business to afford. |
 | My background makes me uniquely positioned to run a review and propose solutions that work for you. | I've run businesses and I build software, so I can tell you what's worth fixing, with or without code. |
 | AI can be the direct solution or indirect solution by making software development more accessible. | Sometimes AI is part of the fix. More often it makes building the fix faster and cheaper. |
 
@@ -76,14 +76,16 @@ The voice stays the same; the dial moves with the setting.
 
 ## Positioning decisions
 
-- **Umbrella:** business admin and operations for small UK businesses. The headline says what you do, not what the reader is missing.
+- **Umbrella:** business admin and operations for owner-run UK businesses. The headline says what you do, not what the reader is missing.
 - **Lead identity:** an operator who moved into software, not an engineer who understands business.
 - **The offer:** the fixed-price review leads; building what needs software follows. No "free" offer in the CTA. Quoting through to production is one example in body copy, never the pitch.
 - **Formality:** first name, friendly and direct.
 - **AI:** never in a headline and never its own section. One sentence where it is part of a fix or explains how a fix gets built.
 - **Price:** not shown on the site.
 - **One ask per piece:** one button on a page, one question in a message.
-- **Segment word:** lives in `src/_data/site_metadata.yml` (`segment`). Pages read it from there; don't hard-code it in copy.
+- **Segment word:** "owner-run businesses" on the site, with no size claim. It lives in `src/_data/site_metadata.yml` (`segment`); pages read it from there, so don't hard-code it in copy.
+- **Internal target (never in copy):** 5–50 staff, with an owner or general manager who makes the decision. Use it to filter contact lists, not to describe the reader.
+- **Outreach:** name the sector ("restaurant groups", "trade suppliers"), not the size.
 
 ## Facts about Winston
 
@@ -110,7 +112,7 @@ State only what the user has confirmed. When unsure, ask or leave a placeholder.
 ### Writing new copy
 1. Pick the reader and setting, and set the dial from "How the voice flexes".
 2. Draft, opening on what you do, plainly. Where you mention the reader's setup, describe or ask rather than assert.
-3. Check the draft against the principles table, "Evidence" and "Facts about Winston" row by row, then reread it as a sceptical small-business owner. Fix anything vague, inflated or unsourced.
+3. Check the draft against the principles table, "Evidence" and "Facts about Winston" row by row, then reread it as a sceptical business owner. Fix anything vague, inflated or unsourced.
 4. Deliver the copy. If you left placeholders or assumed a fact, say so in a line after it.
 
 ### Reviewing a draft
@@ -120,7 +122,8 @@ Return the revised copy first, then the changes that matter most, each tied to i
 
 Working defaults, not settled. Use them, but don't build anything that's hard to change on them.
 
-- **Segment word:** "small businesses" for now. Check with owners whether a narrower word (by sector or size) lands better.
+- **Segment word:** "owner-run businesses" for now, with "growing businesses" as the alternative. Check with owners which they recognise themselves in.
+- **Sector names in outreach:** test which sectors respond over 30 days.
 - **Buyer words in the "Use" column:** confirm with the same owners.
 - **"Review" as the offer's name:** test it in conversations.
 - **Price:** revisit after the first reviews.
