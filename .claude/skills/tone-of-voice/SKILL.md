@@ -5,26 +5,28 @@ description: Winston Ferguson's tone of voice for winstonferguson.com and his co
 
 # Tone of voice
 
-Speak like an experienced operator talking shop to a peer: plain, specific and honest, never like a vendor or a consultant selling a method.
+Speak like an operator who has run businesses, talking to someone who runs one now: plain, specific and honest, never like a vendor or a consultant selling a method.
 
-The reader is the owner or ops lead of a UK made-to-order business. They are busy, not technical, and wary of AI hype and of anyone selling them software. They decide in seconds whether a page is about them, so the copy has to sound like someone who has run a business, not someone pitching to one.
+The reader is the owner or manager of a small UK business. They are busy, not technical, and wary of AI hype and of anyone selling them software. They decide in seconds whether a page is about them, so the copy has to sound like someone who has done the admin, not someone pitching to people who do.
+
+The offer is a fixed-price audit of how work moves through the business, with a ranked list of fixes. Some fixes need software; many don't. Building the fixes is the follow-on, not the lead.
 
 ## Five principles
 
 | Principle | Do | Don't | Why |
 | --- | --- | --- | --- |
-| Start with their problem | Open on something they'd recognise from their own week. | "I help SMEs unlock digital transformation." | They decide in one line whether this is about them. |
-| Be specific | Name the step, the tool, the number: "a 5-page report and a ranked list of fixes." | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
-| Sound like an operator | Shop-floor words: quote, workshop, cut list, job, spec. | Consultant words: stakeholders, workflows, synergies. | Their words signal you've stood where they stand. |
+| Start with their problem | Open on something they'd recognise from their own week: the same order typed twice, the rota rebuilt every Sunday. | "I help SMEs unlock digital transformation." | They decide in one line whether this is about them. |
+| Be specific | Name the task, the tool, the number: "a ranked list of fixes", "the invoice spreadsheet". | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
+| Use everyday admin words | Job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
 | Stay calm and honest | Say when software isn't the answer, and what you don't know. | Promise transformation or hype AI. | One overclaim discredits everything around it. |
 | Write to one person | "I", "you", short sentences, direct questions. | "We", "our team", long abstract sentences. | You are one person; pretending otherwise reads as a sales front. |
 
-## Ask, don't assert
+## Name the pain, ask about the detail
 
-You don't know the reader's business, and the pains below are guesses until owners confirm them. Put the problem as a real question they answer for themselves, not as a statement about how they work.
+A headline can name a common pain plainly: "Too much of your week goes on admin that should run itself." Below the headline you don't know their business, so ask about the detail rather than stating how they work.
 
-- Yes: "How many times does a quote get typed before it reaches the workshop?"
-- No: "Quotes take hours and get re-typed into production." (states their setup as fact)
+- Yes: "How many times does an order get typed before it's invoiced?"
+- No: "Your team re-types every order three times." (states their setup as fact, with an invented number)
 
 Ask one genuine question, then say what you do. Avoid questions that answer themselves and rush to a pitch: "Tired of…?", "What if you could…?", "Are you X? Then…".
 
@@ -39,25 +41,25 @@ Ask one genuine question, then say what you do. Avoid questions that answer them
 
 | Use | Avoid | Why |
 | --- | --- | --- |
-| quote, quoting | quotation workflow, CPQ | Owners say "quote". |
-| the workshop, the shop floor | production environment | Their place, their word. |
-| job, order, spec | project, deliverable | Matches how they talk. |
-| re-typing, re-keying | data silos, manual processes | Concrete, visible pain. |
+| admin, paperwork | back-office operations, business processes | What owners call it. |
+| job, order, invoice, rota | project, deliverable, resource allocation | Matches how they talk. |
+| spreadsheet, the system you use now | legacy systems, tech stack | Names the actual thing. |
+| re-typing, copying across, chasing | data silos, manual processes, inefficiencies | Concrete, visible pain. |
 | fix, tool | solution, platform | Plain nouns. |
-| made-to-order | bespoke, mass customisation, digital transformation | The working default; see "Still to test". |
+| small business | SME, organisation | Plain, and what they call themselves. |
 | AI, only where it earns its place | revolutionary, cutting-edge, game-changing, AI-powered | Sceptical buyers tune out hype. |
 | audit, teardown | strategy, roadmap, engagement | Says what happens next. |
 
-Also never: seamless, effortless, transform, unlock, supercharge, empower, leverage, uniquely positioned, multidisciplinary. If a word could describe any consultant, it probably doesn't belong.
+Also never: seamless, effortless, transform, unlock, supercharge, empower, leverage, streamline, uniquely positioned, multidisciplinary. If a word could describe any consultant, it probably doesn't belong.
 
 ## Before and after
 
 | Before | After |
 | --- | --- |
-| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | I help made-to-order businesses turn quotes into production without the rework. |
-| The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for small makers to afford. |
+| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | Too much of your week goes on admin that should run itself. I'll find where the hours go, then fix it. |
+| The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for a small business to afford. |
 | My background makes me uniquely positioned to run an audit and propose solutions that work for you. | I've run businesses and I build software, so I can tell you what's worth fixing, with or without code. |
-| AI can be the direct solution or indirect solution by making software development more accessible. | Sometimes AI is part of the tool. More often it makes building the tool faster and cheaper. |
+| AI can be the direct solution or indirect solution by making software development more accessible. | Sometimes AI is part of the fix. More often it makes building the fix faster and cheaper. |
 
 ## How the voice flexes
 
@@ -65,28 +67,33 @@ The voice stays the same; the dial moves with the setting.
 
 | Where | Dial | Rule of thumb |
 | --- | --- | --- |
-| Homepage | Warmest, shortest | Their problem first, one button. No history of you above the fold. |
+| Homepage | Warmest, shortest | The pain first, one button. No history of you above the fold. |
 | Case studies | Most factual | Problem, what I built, result. Numbers only per "Evidence". No adjectives. |
 | About paragraph | Personal, still plain | The operator-who-moved-into-software story in 3–4 sentences. |
-| Outreach email or message | Casual, direct | Two to four lines, one question about how they quote today. No pitch. |
+| Outreach email or message | Casual, direct | Two to four lines, one question about a task that eats their week. No pitch. |
 | Proposal | Clearest, most structured | Scope, deliverables, price, next step. Plain terms, no jargon. |
-| Posts or articles | Practical | Teardown style: here is a quoting flow, here is where the hours go. |
+| Posts or articles | Practical | Teardown style: here is how an order gets invoiced, here is where the hours go. |
 
 ## Positioning decisions
 
+- **Umbrella:** business admin and operations for small UK businesses. The headline names the pain, not a niche.
 - **Lead identity:** an operator who moved into software, not an engineer who understands business.
+- **The offer:** the fixed-price audit leads; building the fixes follows. Quoting through to production is one example in body copy, never the pitch.
 - **Formality:** first name, friendly and direct.
-- **The offer:** "quote-to-production audit" in proposals; buyer words ("quotes", "rework") in headlines.
-- **AI:** never in a headline. Mention it only where it explains how something gets built or what it does.
+- **AI:** never in a headline. Mention it only where it is part of a fix or explains how a fix gets built.
 - **Price:** not shown on the site.
 - **One ask per piece:** one button on a page, one question in a message.
+- **Segment word:** lives in `src/_data/site_metadata.yml` (`segment`). Pages read it from there; don't hard-code it in copy.
 
 ## Facts about Winston
 
 State only what the user has confirmed. When unsure, ask or leave a placeholder.
 
-- **Saw & Sew:** say it "ran in production" or "first ran at Saw & Sew". Never "proven", "validated" or anything implying scale.
-- **Datafurn:** one honest line on About and Contact only, kept out of the services pitch. Its approved status is "In development. Recruiting for the Stage 1 pilot." Don't describe Datafurn's product here beyond that; for anything more, follow the Datafurn brand voice guide.
+- An operator and manager who moved into software. Consulted for retail, aviation and hospitality businesses. Since 2017, admin and management consulting for London hospitality businesses, including a financial model and standard operating procedures. Runs his own businesses.
+- Background in CAD and design. Builds custom software in Ruby on Rails and Bridgetown.
+- **Saw & Sew:** he founded it, an online mass-customisation furniture business. Production was outsourced. Never "proven", "validated" or anything implying scale.
+- **No workshop experience.** He has not worked directly with workshops or manufacturers. Never claim or imply shop-floor experience.
+- **Datafurn:** he is the founder; it's software for CNC manufacturers, in development. One honest line on About and Contact only, never in the services pitch. For anything more, follow the Datafurn brand voice guide.
 
 ## House style
 
@@ -96,24 +103,24 @@ State only what the user has confirmed. When unsure, ask or leave a placeholder.
 - **Headings:** sentence case. H1s say the value literally, in the reader's words.
 - **Punctuation:** no exclamation marks; no emoji on the site; prefer full stops, colons and commas to em dashes.
 - **Bold:** sparingly, for the one point that matters, or as a short lead phrase on list items.
-- **CTAs:** specific and low-pressure: "Tell me how you quote today", "Book a 15-minute call". Not "Get started today!".
+- **CTAs:** specific and low-pressure: "Book a free admin teardown", "Book a 15-minute call". Not "Get started today!".
 
 ## How to work
 
 ### Writing new copy
 1. Pick the reader and setting, and set the dial from "How the voice flexes".
-2. Draft, opening on the reader's problem, as a question where you're guessing.
-3. Check the draft against the principles table and "Evidence" row by row, then reread it as a sceptical workshop owner. Fix anything vague, inflated or unsourced.
+2. Draft, opening on the reader's problem, as a question where you're guessing about their setup.
+3. Check the draft against the principles table, "Evidence" and "Facts about Winston" row by row, then reread it as a sceptical small-business owner. Fix anything vague, inflated or unsourced.
 4. Deliver the copy. If you left placeholders or assumed a fact, say so in a line after it.
 
 ### Reviewing a draft
-Return the revised copy first, then the changes that matter most, each tied to its rule ("Removed 'uniquely positioned': consultant word"). List factual problems first: invented numbers, overstated facts about Winston, unconfirmed client names. Keep the author's good lines, but replace a structure that breaks the voice rather than polishing it. If the user only wants feedback, give the list without a rewrite.
+Return the revised copy first, then the changes that matter most, each tied to its rule ("Removed 'uniquely positioned': consultant word"). List factual problems first: invented numbers, overstated facts about Winston, workshop experience he doesn't have, unconfirmed client names. Keep the author's good lines, but replace a structure that breaks the voice rather than polishing it. If the user only wants feedback, give the list without a rewrite.
 
 ## Still to test
 
 Working defaults, not settled. Use them, but don't build anything that's hard to change on them.
 
-- **"Made-to-order":** check with 3–5 owners which word they use for their kind of business.
+- **Segment word:** "small businesses" for now. Check with owners whether a narrower word (by sector or size) lands better.
 - **Buyer words in the "Use" column:** confirm with the same owners.
-- **"Quote-to-production audit":** test the name in conversations before it goes on the site.
+- **"Admin teardown" and "admin audit":** test the names in conversations.
 - **Price:** revisit after the first audits.
