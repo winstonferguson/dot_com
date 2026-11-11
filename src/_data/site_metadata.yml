@@ -1,16 +1,15 @@
 # Site settings, available in templates as site.metadata.<key>.
 
 title: Winston Ferguson
-tagline: Business admin, looked at properly
+tagline: Which admin is worth automating
 # TODO: confirm the exact address and the domain spelling before launch.
 email: hello@winstonferguson.com
 description: >-
-  I review how work moves through a business, from the first enquiry to the
-  paid invoice, and say what's worth changing. Sometimes that's software.
-  Often it isn't.
+  A fixed-price review of how work moves through your business. Sometimes
+  the fix is software. Often it isn't.
 
 # Who the site is for. Not settled yet: change it here and every page that
-# names the segment updates. Reads as "Admin for <segment>, looked at properly."
+# names the segment updates. Reads as "Admin reviews for <segment>".
 segment: owner-run businesses
 
 # Call to action used on the homepage and contact page.
