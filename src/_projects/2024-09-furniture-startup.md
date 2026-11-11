@@ -2,7 +2,7 @@
 title:  Furniture Startup Web Application
 date:   2024
 layout: project
-featured: true
+published: false
 when: August 2024 through September 2024
 stack: Ruby On Rails 7, ShapeDiver, Stimulus.js, Turbo, Stripe API, Dart Sass, Spree, PostgreSQL
 categories: development design

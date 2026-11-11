@@ -1,8 +1,8 @@
 ---
 title: AI Integration for 3D Configurator
 layout: project
+published: false
 date:   2024
-featured: true
 when: November 2024 through December 2024
 categories: development design
 stack: Rails 7, Stimulus.js, ShapeDiver, Apiframe API, Dart Sass
