@@ -1,24 +1,25 @@
 # Site settings, available in templates as site.metadata.<key>.
 
 title: Winston Ferguson
-tagline: Quote it once, make it right
-email: jwrferguson@gmail.com
+tagline: Business admin that runs itself
+# TODO: confirm the exact address and the domain spelling before launch.
+email: hello@winstonferguson.com
 description: >-
-  A fixed-price audit of how small UK businesses quote custom work and hand
-  it to production, then the fixes built. Software where it pays, AI only
-  where it earns its place.
+  A fixed-price audit of how work moves through your business, with a
+  ranked list of fixes. Some need software, many don't. Then I build the
+  ones that do.
 
-# The word for the reader's kind of business. Not settled yet: change it here
-# and every page that names the niche updates. Used as "<niche> businesses".
-niche: made-to-order
+# Who the site is for. Not settled yet: change it here and every page that
+# names the segment updates. Reads as "I work with <segment>".
+segment: small businesses
 
 # Call to action used on the homepage and contact page.
-cta_label: Book a free quote teardown
-cta_subject: Free quote teardown
+cta_label: Book a free admin teardown
+cta_subject: Free admin teardown
 cta_body: |-
   Hi Winston,
 
-  I'd like a free quote teardown.
+  I'd like a free admin teardown.
 
-  What we make:
-  How we quote it today:
+  What the business does:
+  The admin that takes most of our week:
