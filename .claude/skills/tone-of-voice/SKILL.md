@@ -9,21 +9,21 @@ Speak like an operator who has run businesses, talking to someone who runs one n
 
 The reader is the owner or manager of a small UK business. They are busy, not technical, and wary of AI hype and of anyone selling them software. They decide in seconds whether a page is about them, so the copy has to sound like someone who has done the admin, not someone pitching to people who do.
 
-The offer is a fixed-price audit of how work moves through the business, with a ranked list of fixes. Some fixes need software; many don't. Building the fixes is the follow-on, not the lead.
+The offer is a fixed-price review of how work moves through the business, with a short written report of changes in order of usefulness. Some need software; many don't. Building the fixes is the follow-on, not the lead.
 
 ## Five principles
 
 | Principle | Do | Don't | Why |
 | --- | --- | --- | --- |
-| Start with their problem | Open on something they'd recognise from their own week: the same order typed twice, the rota rebuilt every Sunday. | "I help SMEs unlock digital transformation." | They decide in one line whether this is about them. |
+| Say what you do, plainly | Open on what you do and for whom: "Admin for small businesses, looked at properly." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
 | Be specific | Name the task, the tool, the number: "a ranked list of fixes", "the invoice spreadsheet". | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
 | Use everyday admin words | Job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
 | Stay calm and honest | Say when software isn't the answer, and what you don't know. | Promise transformation or hype AI. | One overclaim discredits everything around it. |
 | Write to one person | "I", "you", short sentences, direct questions. | "We", "our team", long abstract sentences. | You are one person; pretending otherwise reads as a sales front. |
 
-## Name the pain, ask about the detail
+## Don't assert how they work
 
-A headline can name a common pain plainly: "Too much of your week goes on admin that should run itself." Below the headline you don't know their business, so ask about the detail rather than stating how they work.
+Headlines say what you do. Below the headline, describe what you look for ("where a job gets typed again, checked twice or waits on someone") or ask, rather than stating how the reader's business works.
 
 - Yes: "How many times does an order get typed before it's invoiced?"
 - No: "Your team re-types every order three times." (states their setup as fact, with an invented number)
@@ -48,7 +48,7 @@ Ask one genuine question, then say what you do. Avoid questions that answer them
 | fix, tool | solution, platform | Plain nouns. |
 | small business | SME, organisation | Plain, and what they call themselves. |
 | AI, only where it earns its place | revolutionary, cutting-edge, game-changing, AI-powered | Sceptical buyers tune out hype. |
-| audit, teardown | strategy, roadmap, engagement | Says what happens next. |
+| review, report | audit, teardown, strategy, roadmap, engagement | Plain, and says what happens next. |
 
 Also never: seamless, effortless, transform, unlock, supercharge, empower, leverage, streamline, uniquely positioned, multidisciplinary. If a word could describe any consultant, it probably doesn't belong.
 
@@ -56,9 +56,9 @@ Also never: seamless, effortless, transform, unlock, supercharge, empower, lever
 
 | Before | After |
 | --- | --- |
-| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | Too much of your week goes on admin that should run itself. I'll find where the hours go, then fix it. |
+| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | Admin for small businesses, looked at properly. |
 | The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for a small business to afford. |
-| My background makes me uniquely positioned to run an audit and propose solutions that work for you. | I've run businesses and I build software, so I can tell you what's worth fixing, with or without code. |
+| My background makes me uniquely positioned to run a review and propose solutions that work for you. | I've run businesses and I build software, so I can tell you what's worth fixing, with or without code. |
 | AI can be the direct solution or indirect solution by making software development more accessible. | Sometimes AI is part of the fix. More often it makes building the fix faster and cheaper. |
 
 ## How the voice flexes
@@ -67,20 +67,20 @@ The voice stays the same; the dial moves with the setting.
 
 | Where | Dial | Rule of thumb |
 | --- | --- | --- |
-| Homepage | Warmest, shortest | The pain first, one button. No history of you above the fold. |
+| Homepage | Calm, shortest | What you do first, one button. No history of you above the fold. |
 | Case studies | Most factual | Problem, what I built, result. Numbers only per "Evidence". No adjectives. |
 | About paragraph | Personal, still plain | The operator-who-moved-into-software story in 3–4 sentences. |
 | Outreach email or message | Casual, direct | Two to four lines, one question about a task that eats their week. No pitch. |
 | Proposal | Clearest, most structured | Scope, deliverables, price, next step. Plain terms, no jargon. |
-| Posts or articles | Practical | Teardown style: here is how an order gets invoiced, here is where the hours go. |
+| Posts or articles | Practical | Walk-through style: here is how an order gets invoiced, here is where the hours go. |
 
 ## Positioning decisions
 
-- **Umbrella:** business admin and operations for small UK businesses. The headline names the pain, not a niche.
+- **Umbrella:** business admin and operations for small UK businesses. The headline says what you do, not what the reader is missing.
 - **Lead identity:** an operator who moved into software, not an engineer who understands business.
-- **The offer:** the fixed-price audit leads; building the fixes follows. Quoting through to production is one example in body copy, never the pitch.
+- **The offer:** the fixed-price review leads; building what needs software follows. No "free" offer in the CTA. Quoting through to production is one example in body copy, never the pitch.
 - **Formality:** first name, friendly and direct.
-- **AI:** never in a headline. Mention it only where it is part of a fix or explains how a fix gets built.
+- **AI:** never in a headline and never its own section. One sentence where it is part of a fix or explains how a fix gets built.
 - **Price:** not shown on the site.
 - **One ask per piece:** one button on a page, one question in a message.
 - **Segment word:** lives in `src/_data/site_metadata.yml` (`segment`). Pages read it from there; don't hard-code it in copy.
@@ -103,13 +103,13 @@ State only what the user has confirmed. When unsure, ask or leave a placeholder.
 - **Headings:** sentence case. H1s say the value literally, in the reader's words.
 - **Punctuation:** no exclamation marks; no emoji on the site; prefer full stops, colons and commas to em dashes.
 - **Bold:** sparingly, for the one point that matters, or as a short lead phrase on list items.
-- **CTAs:** specific and low-pressure: "Book a free admin teardown", "Book a 15-minute call". Not "Get started today!".
+- **CTAs:** specific and low-pressure: "Talk it through", "Book a 15-minute call". Not "Get started today!".
 
 ## How to work
 
 ### Writing new copy
 1. Pick the reader and setting, and set the dial from "How the voice flexes".
-2. Draft, opening on the reader's problem, as a question where you're guessing about their setup.
+2. Draft, opening on what you do, plainly. Where you mention the reader's setup, describe or ask rather than assert.
 3. Check the draft against the principles table, "Evidence" and "Facts about Winston" row by row, then reread it as a sceptical small-business owner. Fix anything vague, inflated or unsourced.
 4. Deliver the copy. If you left placeholders or assumed a fact, say so in a line after it.
 
@@ -122,5 +122,5 @@ Working defaults, not settled. Use them, but don't build anything that's hard to
 
 - **Segment word:** "small businesses" for now. Check with owners whether a narrower word (by sector or size) lands better.
 - **Buyer words in the "Use" column:** confirm with the same owners.
-- **"Admin teardown" and "admin audit":** test the names in conversations.
-- **Price:** revisit after the first audits.
+- **"Review" as the offer's name:** test it in conversations.
+- **Price:** revisit after the first reviews.
