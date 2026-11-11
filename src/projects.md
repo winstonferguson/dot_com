@@ -10,7 +10,11 @@ title: Work
   </div>
   <div class="intro">
     <h1 class="title">Work</h1>
-    <p>Software that takes admin off a business's hands: pricing and ordering systems, data import and export, generated documents, product configurators and online shops. Each case study shows the problem, what I built and the result.</p>
+    <p>My full track record: reviews and turnarounds, and the systems I've built. Each case study shows what I did and the result.</p>
+    <p>I'm also named inventor on a US patent, with a second allowed and about to issue.</p>
+    <p><strong>TODO:</strong> patent number and title for the issued one.</p>
+    <p><strong>TODO:</strong> confirm who the applicant or assignee is.</p>
+    <p><strong>TODO:</strong> when the second issues, change to "Named inventor on two US patents" and add the number.</p>
   </div>
 </section>
 
