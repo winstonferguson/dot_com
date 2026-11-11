@@ -16,7 +16,7 @@ A parametric 3D configurator needed its users to set every input value themselve
 
 ## What I built
 
-- **AI-generated input values.** Users interact with AI, and it sets the configurator's inputs for them.
+- **AI-generated input values.** AI generates the configurator's input values from what the user asks for.
 - **A credit system** that tracks each user's AI usage.
 
 The configurator runs on Rails 7 with Stimulus.js, and ShapeDiver generates the 3D model in the cloud.

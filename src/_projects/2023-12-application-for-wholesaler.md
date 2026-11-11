@@ -12,7 +12,7 @@ description: An ordering and back-office application for a wholesale distributio
 
 ## Problem
 
-A wholesale distribution business needed procurement, complex pricing and bulk work built into its ordering system.
+A wholesale distribution business needed procurement, complex pricing and bulk admin handled in its ordering system.
 
 ## What I built
 
@@ -23,7 +23,7 @@ An application on Rails 7 and Spree, extended with:
 - bulk actions
 - data import and export
 - PDF generation
-- admin workflows built around how the business works
+- admin tools built around how the business works
 
 ## Result
 

@@ -18,7 +18,7 @@ A furniture startup sold highly customisable products. Each customer configurati
 
 - **An online shop** on Rails 7 and Spree, with Stripe for payments.
 - **A parametric configurator** using ShapeDiver, so customers set sizes and options and see the product change.
-- **A product metadata framework** that describes each product's options, so new configurable products can be added without new code for each one.
+- **A product metadata framework** that describes each product's options for the configurator and the shop.
 
 ## Result
 

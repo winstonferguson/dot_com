@@ -10,7 +10,7 @@ title: Work
   </div>
   <div class="intro">
     <h1 class="title">Work</h1>
-    <p>Software and design for small businesses: pricing and ordering systems, product configurators, online shops and websites. The case studies show the problem, what I built and the result.</p>
+    <p>Software that takes admin off a business's hands: pricing and ordering systems, data import and export, generated documents, product configurators and online shops. Each case study shows the problem, what I built and the result.</p>
   </div>
 </section>
 
