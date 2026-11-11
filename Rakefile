@@ -11,6 +11,21 @@ task default: :deploy
 desc "Build the Bridgetown site for deployment"
 task :deploy => [:clean, "frontend:build"] do
   Bridgetown::Commands::Build.start
+  Rake::Task[:check_todos].invoke
+end
+
+desc "Fail if any generated page still contains a TODO"
+task :check_todos do
+  hits = Dir.glob("output/**/*.html").sort.filter_map do |path|
+    count = File.read(path).scan(/\bTODO\b/).size
+    "  #{path.delete_prefix('output/')}: #{count}" if count.positive?
+  end
+
+  if hits.any?
+    abort "TODOs left in generated pages:\n#{hits.join("\n")}"
+  end
+
+  puts "No TODOs in generated pages."
 end
 
 desc "Build the site in a test environment"
