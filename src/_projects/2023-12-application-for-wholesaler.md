@@ -27,3 +27,5 @@ An application on Rails 7 and Spree, extended with:
 ## Result
 
 **TODO:** result to add, such as orders handled, time saved on pricing or admin, or errors removed.
+
+**TODO:** confirm the business may be described as "a wholesaler", unnamed.
