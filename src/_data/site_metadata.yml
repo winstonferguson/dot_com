@@ -1,15 +1,16 @@
 # Site settings, available in templates as site.metadata.<key>.
 
 title: Winston Ferguson
-tagline: Operator-led business reviews
+tagline: What to fix, and where technology can help
 # TODO: confirm the exact address and the domain spelling before launch.
 email: hello@winstonferguson.com
 description: >-
-  A fixed-price review of the money and the operations: cashflow, the
-  financial model and where to focus. Then the systems that fix what it finds.
+  A fixed-price review of how your business makes and loses money, from the
+  first enquiry to the paid invoice. Sometimes the fix is software, sometimes
+  AI, often neither.
 
 # Who the site is for. Not settled yet: change it here and every page that
-# names the segment updates. Reads as "Operator-led reviews for <segment>".
+# names the segment updates. Reads as "Business reviews for <segment>".
 segment: owner-run businesses
 
 # Call to action used on the homepage and contact page.

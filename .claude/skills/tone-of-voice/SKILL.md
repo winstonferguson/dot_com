@@ -15,7 +15,7 @@ The offer is an operator-led, fixed-price review. Money and operations come firs
 
 | Principle | Do | Don't | Why |
 | --- | --- | --- | --- |
-| Say what you do, plainly | Open on who you are and what you do: "I've run and turned around businesses, and now I build the software that keeps them running." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
+| Say what you do, plainly | Open on who you are and what you do: "I've run and turned around businesses. I help owners work out what to fix, and where technology can help." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
 | Be specific | Name the task, the tool, the number: "a ranked list of fixes", "the invoice spreadsheet". | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
 | Use everyday business words | Cashflow, debts, costs, job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
 | Stay calm and honest | Say when software isn't the answer, and what you don't know. | Promise transformation or hype AI. | One overclaim discredits everything around it. |
@@ -56,7 +56,7 @@ Also never: seamless, effortless, transform, unlock, supercharge, empower, lever
 
 | Before | After |
 | --- | --- |
-| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | I've run and turned around businesses, and now I build the software that keeps them running. |
+| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | I've run and turned around businesses. I help owners work out what to fix, and where technology can help. |
 | The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for an owner-run business to afford. |
 | My background makes me uniquely positioned to run a review and propose solutions that work for you. | I've run businesses and I build software, so I can tell you what's worth fixing, with or without code. |
 | AI can be the direct solution or indirect solution by making software development more accessible. | Sometimes AI is part of the fix. More often it makes building the fix faster and cheaper. |
@@ -82,9 +82,9 @@ The voice stays the same; the dial moves with the setting.
 - **The offer:** the fixed-price review of money and operations leads; building systems follows. No "free" offer in the CTA.
 - **Scope of advice:** operational and financial-modelling advice only. Never present it as insolvency, legal or tax advice. Say what isn't covered.
 - **Formality:** first name, friendly and direct.
-- **AI:** never in a headline and never its own section. One sentence where it is part of a fix or explains how a fix gets built.
+- **AI:** never in a headline and never its own section. Name it alongside software as one possible fix ("sometimes software, sometimes AI, often neither").
 - **Price:** not shown on the site.
-- **No "free" offers and no extra sections.** The homepage is: eyebrow, H1, sub-line, one button, What I do, Track record, About, case studies.
+- **No "free" offers and no extra sections.** The homepage is: eyebrow, H1, sub-line, one button, What I do, About, Track record, case studies.
 - **One ask per piece:** one button on a page, one question in a message.
 - **Segment word:** "owner-run businesses" on the site, with no size claim. It lives in `src/_data/site_metadata.yml` (`segment`); pages read it from there, so don't hard-code it in copy.
 - **Internal target (never in copy):** 5–50 staff, with an owner or general manager who makes the decision. Use it to filter contact lists, not to describe the reader.
