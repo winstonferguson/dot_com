@@ -5,7 +5,7 @@ description: Winston Ferguson's tone of voice for winstonferguson.com and his co
 
 # Tone of voice
 
-Speak like an operator who has run businesses, talking to someone who runs one now: plain, specific and honest, never like a vendor or a consultant selling a method.
+Speak like an owner-operator who moved into software, talking to someone who runs a business now: plain, specific and honest, never like a vendor or a consultant selling a method.
 
 The reader is the owner or general manager of an owner-run UK business. They are busy, not technical, and wary of AI hype and of anyone selling them software. They decide in seconds whether a page is about them, so the copy has to sound like someone who has done the admin, not someone pitching to people who do.
 
@@ -15,7 +15,7 @@ The offer is a fixed-price review of how work moves through the business, with a
 
 | Principle | Do | Don't | Why |
 | --- | --- | --- | --- |
-| Say what you do, plainly | Open on what you do and for whom: "Admin for owner-run businesses, looked at properly." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
+| Say what you do, plainly | Open on who you are and what you do: "I've run businesses, then became a software engineer. I help owners work out which admin is worth automating." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
 | Be specific | Name the task, the tool, the number: "a ranked list of fixes", "the invoice spreadsheet". | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
 | Use everyday admin words | Job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
 | Stay calm and honest | Say when software isn't the answer, and what you don't know. | Promise transformation or hype AI. | One overclaim discredits everything around it. |
@@ -56,7 +56,7 @@ Also never: seamless, effortless, transform, unlock, supercharge, empower, lever
 
 | Before | After |
 | --- | --- |
-| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | Admin for owner-run businesses, looked at properly. |
+| I'm a London-based multidisciplinary professional specializing in technology, design, and management. | I've run businesses, then became a software engineer. I help owners work out which admin is worth automating. |
 | The landscape is moving rapidly and it's a unique time to create and deploy specialized tools cost effectively in SMEs. | Custom software is now cheap enough for an owner-run business to afford. |
 | My background makes me uniquely positioned to run a review and propose solutions that work for you. | I've run businesses and I build software, so I can tell you what's worth fixing, with or without code. |
 | AI can be the direct solution or indirect solution by making software development more accessible. | Sometimes AI is part of the fix. More often it makes building the fix faster and cheaper. |
@@ -69,7 +69,7 @@ The voice stays the same; the dial moves with the setting.
 | --- | --- | --- |
 | Homepage | Calm, shortest | What you do first, one button. No history of you above the fold. |
 | Case studies | Most factual | Problem, what I built, result. Numbers only per "Evidence". No adjectives. |
-| About paragraph | Personal, still plain | The operator-who-moved-into-software story in 3–4 sentences. |
+| About paragraph | Personal, still plain | The owner-operator-who-moved-into-software story in 4–5 sentences, facts only. |
 | Outreach email or message | Casual, direct | Two to four lines, one question about a task that eats their week. No pitch. |
 | Proposal | Clearest, most structured | Scope, deliverables, price, next step. Plain terms, no jargon. |
 | Posts or articles | Practical | Walk-through style: here is how an order gets invoiced, here is where the hours go. |
@@ -77,11 +77,12 @@ The voice stays the same; the dial moves with the setting.
 ## Positioning decisions
 
 - **Umbrella:** business admin and operations for owner-run UK businesses. The headline says what you do, not what the reader is missing.
-- **Lead identity:** an operator who moved into software, not an engineer who understands business.
+- **Lead identity:** an owner-operator who moved into software, not an engineer who understands business.
 - **The offer:** the fixed-price review leads; building what needs software follows. No "free" offer in the CTA. Quoting through to production is one example in body copy, never the pitch.
 - **Formality:** first name, friendly and direct.
 - **AI:** never in a headline and never its own section. One sentence where it is part of a fix or explains how a fix gets built.
 - **Price:** not shown on the site.
+- **No "free" offers and no extra sections.** The homepage is: eyebrow, H1, sub-line, one button, What I do, About, case studies.
 - **One ask per piece:** one button on a page, one question in a message.
 - **Segment word:** "owner-run businesses" on the site, with no size claim. It lives in `src/_data/site_metadata.yml` (`segment`); pages read it from there, so don't hard-code it in copy.
 - **Internal target (never in copy):** 5–50 staff, with an owner or general manager who makes the decision. Use it to filter contact lists, not to describe the reader.
@@ -91,11 +92,11 @@ The voice stays the same; the dial moves with the setting.
 
 State only what the user has confirmed. When unsure, ask or leave a placeholder.
 
-- An operator and manager who moved into software. Consulted for retail, aviation and hospitality businesses. Since 2017, admin and management consulting for London hospitality businesses, including a financial model and standard operating procedures. Runs his own businesses.
+- Opened and ran his own restaurant for seven years. An owner-operator who moved into software. Consulted for retail, aviation and hospitality businesses. Since 2017, admin and management consulting for London hospitality businesses, including a financial model and standard operating procedures. Runs his own businesses.
 - Background in CAD and design. Builds custom software in Ruby on Rails and Bridgetown.
 - **Saw & Sew:** he founded it, an online mass-customisation furniture business. Production was outsourced. Never "proven", "validated" or anything implying scale.
 - **No workshop experience.** He has not worked directly with workshops or manufacturers. Never claim or imply shop-floor experience.
-- **Datafurn:** he is the founder; it's software for CNC manufacturers, in development. One honest line on About and Contact only, never in the services pitch. For anything more, follow the Datafurn brand voice guide.
+- **Datafurn:** he is the founder; it's software for CNC manufacturers, in development. At most one plain line, in About (or Contact), never in the services pitch. For anything more, follow the Datafurn brand voice guide.
 
 ## House style
 
