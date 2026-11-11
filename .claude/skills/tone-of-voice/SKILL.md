@@ -69,7 +69,7 @@ The voice stays the same; the dial moves with the setting.
 | --- | --- | --- |
 | Homepage | Calm, shortest | What you do first, one button. No history of you above the fold. |
 | Case studies | Most factual | Problem, what I built, result. Numbers only per "Evidence". No adjectives. |
-| About paragraph | Personal, still plain | The owner-operator-who-moved-into-software story in 4–5 sentences, facts only. |
+| About paragraph | Personal, still plain | The owner-operator-who-moved-into-software story, facts only: Roche Bobois, the restaurant, London hospitality, software, Saw & Sew and Datafurn. |
 | Outreach email or message | Casual, direct | Two to four lines, one question about a task that eats their week. No pitch. |
 | Proposal | Clearest, most structured | Scope, deliverables, price, next step. Plain terms, no jargon. |
 | Posts or articles | Practical | Walk-through style: here is how an order gets invoiced, here is where the hours go. |
@@ -92,6 +92,7 @@ The voice stays the same; the dial moves with the setting.
 
 State only what the user has confirmed. When unsure, ask or leave a placeholder.
 
+- Started in operations at Roche Bobois North America (headquarters): liaison manager, rolled out the intranet across the North American market, trained operations teams, then consulted on operations, including sales turnarounds and takeovers.
 - Opened and ran his own restaurant for seven years. An owner-operator who moved into software. Consulted for retail, aviation and hospitality businesses. Since 2017, admin and management consulting for London hospitality businesses, including a financial model and standard operating procedures. Runs his own businesses.
 - Background in CAD and design. Builds custom software in Ruby on Rails and Bridgetown.
 - **Saw & Sew:** he founded it, an online mass-customisation furniture business. Production was outsourced. Never "proven", "validated" or anything implying scale.
