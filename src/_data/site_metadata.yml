@@ -1,25 +1,23 @@
 # Site settings, available in templates as site.metadata.<key>.
 
 title: Winston Ferguson
-tagline: Business admin that runs itself
+tagline: Business admin, looked at properly
 # TODO: confirm the exact address and the domain spelling before launch.
 email: hello@winstonferguson.com
 description: >-
-  A fixed-price audit of how work moves through your business, with a
-  ranked list of fixes. Some need software, many don't. Then I build the
-  ones that do.
+  I review how work moves through a business, from the first enquiry to the
+  paid invoice, and say what's worth changing. Sometimes that's software.
+  Often it isn't.
 
 # Who the site is for. Not settled yet: change it here and every page that
-# names the segment updates. Reads as "I work with <segment>".
+# names the segment updates. Reads as "Admin for <segment>, looked at properly."
 segment: small businesses
 
 # Call to action used on the homepage and contact page.
-cta_label: Book a free admin teardown
-cta_subject: Free admin teardown
+cta_label: Talk it through
+cta_subject: Talking through our admin
 cta_body: |-
   Hi Winston,
-
-  I'd like a free admin teardown.
 
   What the business does:
   The admin that takes most of our week:
