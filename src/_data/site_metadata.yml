@@ -1,22 +1,22 @@
 # Site settings, available in templates as site.metadata.<key>.
 
 title: Winston Ferguson
-tagline: Which admin is worth automating
+tagline: Operator-led business reviews
 # TODO: confirm the exact address and the domain spelling before launch.
 email: hello@winstonferguson.com
 description: >-
-  A fixed-price review of how work moves through your business. Sometimes
-  the fix is software. Often it isn't.
+  A fixed-price review of the money and the operations: cashflow, the
+  financial model and where to focus. Then the systems that fix what it finds.
 
 # Who the site is for. Not settled yet: change it here and every page that
-# names the segment updates. Reads as "Admin reviews for <segment>".
+# names the segment updates. Reads as "Operator-led reviews for <segment>".
 segment: owner-run businesses
 
 # Call to action used on the homepage and contact page.
 cta_label: Talk it through
-cta_subject: Talking through our admin
+cta_subject: Talking through the business
 cta_body: |-
   Hi Winston,
 
   What the business does:
-  The admin that takes most of our week:
+  What is under most pressure right now:
