@@ -17,7 +17,7 @@ The offer is an operator-led, fixed-price review. Money and operations come firs
 | --- | --- | --- | --- |
 | Say what you do, plainly | Open on who you are and what you do: "I've run and turned around businesses, and now I build the software that keeps them running." Let the reader recognise their own problem in the detail below. | Opening on what the reader is missing or doing wrong, or "I help SMEs unlock digital transformation." | A plain statement reads as confident; a pain-led opener reads as a pitch. |
 | Be specific | Name the task, the tool, the number: "a ranked list of fixes", "the invoice spreadsheet". | "A comprehensive, tailored solution." | Specific nouns prove you know the work. |
-| Use everyday admin words | Job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
+| Use everyday business words | Cashflow, debts, costs, job, order, invoice, rota, spreadsheet, re-typing, chasing. | Consultant words: stakeholders, workflows, processes, synergies. | Their words, not a consultant's, show you've done this work. |
 | Stay calm and honest | Say when software isn't the answer, and what you don't know. | Promise transformation or hype AI. | One overclaim discredits everything around it. |
 | Write to one person | "I", "you", short sentences, direct questions. | "We", "our team", long abstract sentences. | You are one person; pretending otherwise reads as a sales front. |
 
